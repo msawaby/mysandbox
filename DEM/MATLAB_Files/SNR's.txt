@@ -1,0 +1,2155 @@
+   Element Fraction Error 0.000000.
+   Iteration No. 1 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   SNR(dB)=94.711
+   Element Fraction Error 0.000500.
+   Iteration No. 2 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.507
+   SNR Of DAC(dB)=135.834
+   Iteration No. 2 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=95.113
+   SNR Of DAC(dB)=133.306
+   Iteration No. 2 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.403
+   SNR Of DAC(dB)=133.752
+   Iteration No. 2 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.003
+   SNR Of DAC(dB)=133.637
+   Iteration No. 2 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.895
+   SNR Of DAC(dB)=140.496
+   Iteration No. 2 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=95.056
+   SNR Of DAC(dB)=136.221
+   Iteration No. 2 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=95.231
+   SNR Of DAC(dB)=132.026
+   Iteration No. 2 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.328
+   SNR Of DAC(dB)=132.717
+   Iteration No. 2 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=95.239
+   SNR Of DAC(dB)=139.627
+   Iteration No. 2 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.179
+   SNR Of DAC(dB)=137.713
+   SNR(dB)=94.718
+   Element Fraction Error 0.001000.
+   Iteration No. 3 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.795
+   SNR Of DAC(dB)=127.341
+   Iteration No. 3 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.889
+   SNR Of DAC(dB)=124.782
+   Iteration No. 3 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.693
+   SNR Of DAC(dB)=125.771
+   Iteration No. 3 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.641
+   SNR Of DAC(dB)=131.363
+   Iteration No. 3 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.573
+   SNR Of DAC(dB)=129.176
+   Iteration No. 3 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.568
+   SNR Of DAC(dB)=130.948
+   Iteration No. 3 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.698
+   SNR Of DAC(dB)=127.816
+   Iteration No. 3 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.275
+   SNR Of DAC(dB)=129.920
+   Iteration No. 3 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.614
+   SNR Of DAC(dB)=127.642
+   Iteration No. 3 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.727
+   SNR Of DAC(dB)=127.753
+   SNR(dB)=94.650
+   Element Fraction Error 0.001500.
+   Iteration No. 4 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.716
+   SNR Of DAC(dB)=122.750
+   Iteration No. 4 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.235
+   SNR Of DAC(dB)=124.775
+   Iteration No. 4 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=95.453
+   SNR Of DAC(dB)=125.038
+   Iteration No. 4 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=95.455
+   SNR Of DAC(dB)=122.567
+   Iteration No. 4 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.749
+   SNR Of DAC(dB)=127.683
+   Iteration No. 4 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.549
+   SNR Of DAC(dB)=126.244
+   Iteration No. 4 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.223
+   SNR Of DAC(dB)=125.749
+   Iteration No. 4 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=95.103
+   SNR Of DAC(dB)=125.500
+   Iteration No. 4 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=95.656
+   SNR Of DAC(dB)=127.628
+   Iteration No. 4 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=93.281
+   SNR Of DAC(dB)=126.212
+   SNR(dB)=94.794
+   Element Fraction Error 0.002000.
+   Iteration No. 5 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=95.802
+   SNR Of DAC(dB)=118.799
+   Iteration No. 5 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=95.054
+   SNR Of DAC(dB)=120.867
+   Iteration No. 5 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.666
+   SNR Of DAC(dB)=122.231
+   Iteration No. 5 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=93.576
+   SNR Of DAC(dB)=121.980
+   Iteration No. 5 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.009
+   SNR Of DAC(dB)=125.282
+   Iteration No. 5 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.424
+   SNR Of DAC(dB)=122.210
+   Iteration No. 5 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.492
+   SNR Of DAC(dB)=124.762
+   Iteration No. 5 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=95.870
+   SNR Of DAC(dB)=119.218
+   Iteration No. 5 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.329
+   SNR Of DAC(dB)=120.071
+   Iteration No. 5 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=93.357
+   SNR Of DAC(dB)=123.258
+   SNR(dB)=94.632
+   Element Fraction Error 0.002500.
+   Iteration No. 6 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=95.801
+   SNR Of DAC(dB)=122.662
+   Iteration No. 6 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.748
+   SNR Of DAC(dB)=121.652
+   Iteration No. 6 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.685
+   SNR Of DAC(dB)=119.616
+   Iteration No. 6 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.143
+   SNR Of DAC(dB)=125.676
+   Iteration No. 6 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=95.503
+   SNR Of DAC(dB)=122.941
+   Iteration No. 6 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.161
+   SNR Of DAC(dB)=121.460
+   Iteration No. 6 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.644
+   SNR Of DAC(dB)=124.658
+   Iteration No. 6 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.911
+   SNR Of DAC(dB)=120.861
+   Iteration No. 6 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.726
+   SNR Of DAC(dB)=121.342
+   Iteration No. 6 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=93.966
+   SNR Of DAC(dB)=127.458
+   SNR(dB)=94.764
+   Element Fraction Error 0.003000.
+   Iteration No. 7 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.799
+   SNR Of DAC(dB)=122.261
+   Iteration No. 7 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.754
+   SNR Of DAC(dB)=115.033
+   Iteration No. 7 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=93.964
+   SNR Of DAC(dB)=125.383
+   Iteration No. 7 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.949
+   SNR Of DAC(dB)=118.942
+   Iteration No. 7 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.441
+   SNR Of DAC(dB)=115.869
+   Iteration No. 7 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=93.577
+   SNR Of DAC(dB)=120.192
+   Iteration No. 7 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=95.400
+   SNR Of DAC(dB)=126.476
+   Iteration No. 7 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.216
+   SNR Of DAC(dB)=114.194
+   Iteration No. 7 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=93.985
+   SNR Of DAC(dB)=116.404
+   Iteration No. 7 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.213
+   SNR Of DAC(dB)=117.675
+   SNR(dB)=94.461
+   Element Fraction Error 0.003500.
+   Iteration No. 8 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.452
+   SNR Of DAC(dB)=120.931
+   Iteration No. 8 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.857
+   SNR Of DAC(dB)=116.676
+   Iteration No. 8 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.947
+   SNR Of DAC(dB)=115.086
+   Iteration No. 8 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=95.145
+   SNR Of DAC(dB)=116.262
+   Iteration No. 8 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.384
+   SNR Of DAC(dB)=116.356
+   Iteration No. 8 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=93.949
+   SNR Of DAC(dB)=115.571
+   Iteration No. 8 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.848
+   SNR Of DAC(dB)=115.906
+   Iteration No. 8 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=93.774
+   SNR Of DAC(dB)=118.074
+   Iteration No. 8 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=93.765
+   SNR Of DAC(dB)=116.946
+   Iteration No. 8 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=95.858
+   SNR Of DAC(dB)=122.179
+   SNR(dB)=94.645
+   Element Fraction Error 0.004000.
+   Iteration No. 9 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.955
+   SNR Of DAC(dB)=118.043
+   Iteration No. 9 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.666
+   SNR Of DAC(dB)=116.738
+   Iteration No. 9 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.039
+   SNR Of DAC(dB)=119.251
+   Iteration No. 9 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.409
+   SNR Of DAC(dB)=114.470
+   Iteration No. 9 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.048
+   SNR Of DAC(dB)=118.279
+   Iteration No. 9 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=93.954
+   SNR Of DAC(dB)=117.606
+   Iteration No. 9 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.666
+   SNR Of DAC(dB)=117.308
+   Iteration No. 9 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=95.694
+   SNR Of DAC(dB)=123.204
+   Iteration No. 9 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.959
+   SNR Of DAC(dB)=118.980
+   Iteration No. 9 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.697
+   SNR Of DAC(dB)=120.258
+   SNR(dB)=94.639
+   Element Fraction Error 0.004500.
+   Iteration No. 10 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.256
+   SNR Of DAC(dB)=114.765
+   Iteration No. 10 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=95.137
+   SNR Of DAC(dB)=118.130
+   Iteration No. 10 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.580
+   SNR Of DAC(dB)=118.500
+   Iteration No. 10 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.844
+   SNR Of DAC(dB)=115.417
+   Iteration No. 10 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.813
+   SNR Of DAC(dB)=115.660
+   Iteration No. 10 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.331
+   SNR Of DAC(dB)=114.127
+   Iteration No. 10 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.844
+   SNR Of DAC(dB)=119.144
+   Iteration No. 10 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=95.016
+   SNR Of DAC(dB)=115.521
+   Iteration No. 10 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.676
+   SNR Of DAC(dB)=116.991
+   Iteration No. 10 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=93.829
+   SNR Of DAC(dB)=115.407
+   SNR(dB)=94.648
+   Element Fraction Error 0.005000.
+   Iteration No. 11 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.520
+   SNR Of DAC(dB)=114.843
+   Iteration No. 11 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=95.240
+   SNR Of DAC(dB)=115.172
+   Iteration No. 11 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.823
+   SNR Of DAC(dB)=117.264
+   Iteration No. 11 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.660
+   SNR Of DAC(dB)=114.488
+   Iteration No. 11 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.676
+   SNR Of DAC(dB)=119.059
+   Iteration No. 11 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.132
+   SNR Of DAC(dB)=114.746
+   Iteration No. 11 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.878
+   SNR Of DAC(dB)=117.044
+   Iteration No. 11 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.882
+   SNR Of DAC(dB)=112.790
+   Iteration No. 11 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=95.635
+   SNR Of DAC(dB)=114.502
+   Iteration No. 11 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.128
+   SNR Of DAC(dB)=114.928
+   SNR(dB)=94.780
+   Element Fraction Error 0.005500.
+   Iteration No. 12 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=93.659
+   SNR Of DAC(dB)=112.507
+   Iteration No. 12 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=95.009
+   SNR Of DAC(dB)=114.190
+   Iteration No. 12 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.672
+   SNR Of DAC(dB)=110.483
+   Iteration No. 12 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.827
+   SNR Of DAC(dB)=116.905
+   Iteration No. 12 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.498
+   SNR Of DAC(dB)=114.362
+   Iteration No. 12 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=95.495
+   SNR Of DAC(dB)=114.153
+   Iteration No. 12 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.023
+   SNR Of DAC(dB)=112.916
+   Iteration No. 12 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=93.506
+   SNR Of DAC(dB)=113.883
+   Iteration No. 12 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.338
+   SNR Of DAC(dB)=118.726
+   Iteration No. 12 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=95.766
+   SNR Of DAC(dB)=118.054
+   SNR(dB)=94.636
+   Element Fraction Error 0.006000.
+   Iteration No. 13 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.653
+   SNR Of DAC(dB)=119.141
+   Iteration No. 13 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.428
+   SNR Of DAC(dB)=113.342
+   Iteration No. 13 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.941
+   SNR Of DAC(dB)=110.044
+   Iteration No. 13 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.451
+   SNR Of DAC(dB)=109.966
+   Iteration No. 13 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.541
+   SNR Of DAC(dB)=116.951
+   Iteration No. 13 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=93.983
+   SNR Of DAC(dB)=115.556
+   Iteration No. 13 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.265
+   SNR Of DAC(dB)=114.858
+   Iteration No. 13 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.387
+   SNR Of DAC(dB)=117.354
+   Iteration No. 13 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.596
+   SNR Of DAC(dB)=111.267
+   Iteration No. 13 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=93.593
+   SNR Of DAC(dB)=115.553
+   SNR(dB)=94.398
+   Element Fraction Error 0.006500.
+   Iteration No. 14 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.537
+   SNR Of DAC(dB)=110.426
+   Iteration No. 14 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.535
+   SNR Of DAC(dB)=115.706
+   Iteration No. 14 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.325
+   SNR Of DAC(dB)=111.099
+   Iteration No. 14 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=95.151
+   SNR Of DAC(dB)=115.053
+   Iteration No. 14 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=93.376
+   SNR Of DAC(dB)=109.460
+   Iteration No. 14 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=93.946
+   SNR Of DAC(dB)=113.535
+   Iteration No. 14 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.740
+   SNR Of DAC(dB)=108.205
+   Iteration No. 14 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=93.905
+   SNR Of DAC(dB)=111.673
+   Iteration No. 14 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.468
+   SNR Of DAC(dB)=113.884
+   Iteration No. 14 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.461
+   SNR Of DAC(dB)=108.443
+   SNR(dB)=94.369
+   Element Fraction Error 0.007000.
+   Iteration No. 15 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=95.277
+   SNR Of DAC(dB)=121.035
+   Iteration No. 15 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=95.537
+   SNR Of DAC(dB)=111.251
+   Iteration No. 15 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.468
+   SNR Of DAC(dB)=113.236
+   Iteration No. 15 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.645
+   SNR Of DAC(dB)=111.788
+   Iteration No. 15 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.457
+   SNR Of DAC(dB)=113.797
+   Iteration No. 15 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=95.205
+   SNR Of DAC(dB)=111.844
+   Iteration No. 15 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.276
+   SNR Of DAC(dB)=114.085
+   Iteration No. 15 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=93.754
+   SNR Of DAC(dB)=107.480
+   Iteration No. 15 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.168
+   SNR Of DAC(dB)=108.929
+   Iteration No. 15 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.573
+   SNR Of DAC(dB)=111.456
+   SNR(dB)=94.668
+   Element Fraction Error 0.007500.
+   Iteration No. 16 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.703
+   SNR Of DAC(dB)=112.648
+   Iteration No. 16 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.361
+   SNR Of DAC(dB)=110.711
+   Iteration No. 16 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=93.324
+   SNR Of DAC(dB)=110.792
+   Iteration No. 16 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.721
+   SNR Of DAC(dB)=113.394
+   Iteration No. 16 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.444
+   SNR Of DAC(dB)=110.246
+   Iteration No. 16 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.669
+   SNR Of DAC(dB)=108.015
+   Iteration No. 16 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=96.094
+   SNR Of DAC(dB)=116.314
+   Iteration No. 16 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=93.515
+   SNR Of DAC(dB)=112.129
+   Iteration No. 16 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=92.673
+   SNR Of DAC(dB)=113.320
+   Iteration No. 16 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=93.702
+   SNR Of DAC(dB)=109.049
+   SNR(dB)=94.317
+   Element Fraction Error 0.008000.
+   Iteration No. 17 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.280
+   SNR Of DAC(dB)=110.894
+   Iteration No. 17 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.280
+   SNR Of DAC(dB)=109.740
+   Iteration No. 17 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=93.564
+   SNR Of DAC(dB)=109.069
+   Iteration No. 17 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=93.764
+   SNR Of DAC(dB)=108.383
+   Iteration No. 17 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.115
+   SNR Of DAC(dB)=112.908
+   Iteration No. 17 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=95.062
+   SNR Of DAC(dB)=109.601
+   Iteration No. 17 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.393
+   SNR Of DAC(dB)=108.655
+   Iteration No. 17 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=93.742
+   SNR Of DAC(dB)=112.730
+   Iteration No. 17 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=95.116
+   SNR Of DAC(dB)=107.893
+   Iteration No. 17 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.699
+   SNR Of DAC(dB)=109.155
+   SNR(dB)=94.332
+   Element Fraction Error 0.008500.
+   Iteration No. 18 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.243
+   SNR Of DAC(dB)=107.141
+   Iteration No. 18 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.726
+   SNR Of DAC(dB)=113.462
+   Iteration No. 18 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.634
+   SNR Of DAC(dB)=109.480
+   Iteration No. 18 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.826
+   SNR Of DAC(dB)=113.271
+   Iteration No. 18 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.434
+   SNR Of DAC(dB)=111.479
+   Iteration No. 18 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.883
+   SNR Of DAC(dB)=115.275
+   Iteration No. 18 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=95.655
+   SNR Of DAC(dB)=108.376
+   Iteration No. 18 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.104
+   SNR Of DAC(dB)=111.972
+   Iteration No. 18 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.576
+   SNR Of DAC(dB)=106.720
+   Iteration No. 18 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.699
+   SNR Of DAC(dB)=111.345
+   SNR(dB)=94.697
+   Element Fraction Error 0.009000.
+   Iteration No. 19 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=95.005
+   SNR Of DAC(dB)=113.322
+   Iteration No. 19 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.546
+   SNR Of DAC(dB)=113.714
+   Iteration No. 19 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.721
+   SNR Of DAC(dB)=108.126
+   Iteration No. 19 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.462
+   SNR Of DAC(dB)=113.835
+   Iteration No. 19 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=95.340
+   SNR Of DAC(dB)=114.442
+   Iteration No. 19 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=95.445
+   SNR Of DAC(dB)=108.464
+   Iteration No. 19 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=93.934
+   SNR Of DAC(dB)=105.951
+   Iteration No. 19 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=93.081
+   SNR Of DAC(dB)=108.350
+   Iteration No. 19 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.974
+   SNR Of DAC(dB)=112.175
+   Iteration No. 19 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=96.130
+   SNR Of DAC(dB)=108.390
+   SNR(dB)=94.836
+   Element Fraction Error 0.009500.
+   Iteration No. 20 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=95.206
+   SNR Of DAC(dB)=108.177
+   Iteration No. 20 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.294
+   SNR Of DAC(dB)=118.985
+   Iteration No. 20 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=93.857
+   SNR Of DAC(dB)=112.068
+   Iteration No. 20 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.577
+   SNR Of DAC(dB)=108.744
+   Iteration No. 20 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=95.220
+   SNR Of DAC(dB)=113.117
+   Iteration No. 20 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.196
+   SNR Of DAC(dB)=111.731
+   Iteration No. 20 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.063
+   SNR Of DAC(dB)=107.828
+   Iteration No. 20 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.748
+   SNR Of DAC(dB)=107.288
+   Iteration No. 20 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=92.709
+   SNR Of DAC(dB)=107.305
+   Iteration No. 20 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=93.397
+   SNR Of DAC(dB)=112.172
+   SNR(dB)=94.288
+   Element Fraction Error 0.010000.
+   Iteration No. 21 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=93.527
+   SNR Of DAC(dB)=112.470
+   Iteration No. 21 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.595
+   SNR Of DAC(dB)=107.819
+   Iteration No. 21 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.646
+   SNR Of DAC(dB)=107.108
+   Iteration No. 21 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.774
+   SNR Of DAC(dB)=106.852
+   Iteration No. 21 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.120
+   SNR Of DAC(dB)=107.548
+   Iteration No. 21 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.320
+   SNR Of DAC(dB)=105.921
+   Iteration No. 21 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.194
+   SNR Of DAC(dB)=106.764
+   Iteration No. 21 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.389
+   SNR Of DAC(dB)=114.521
+   Iteration No. 21 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=95.448
+   SNR Of DAC(dB)=108.053
+   Iteration No. 21 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.494
+   SNR Of DAC(dB)=107.109
+   SNR(dB)=94.476
+   Simulation time =129.619 min
+Warning: Direct access of structure fields returned by a function call (e.g.,
+ call to Sigma_Delta_NLDAC_DWA_loop) is not allowed. See MATLAB 7.10 Release Notes, "Subscripting Into Function Return Values" for details. 
+> In loop at 3
+??? Attempt to reference field of non-structure array.
+
+Error in ==> loop at 3
+Sigma_Delta_NLDAC_DWA_loop.m;
+ 
+>> save('C:\DEM\MATLAB_Files\Loop_NLDAC_DWA.mat');
+
+clear all;
+Sigma_Delta_NLDAC_FRAND_loop.m;
+save('C:\DEM\MATLAB_Files\Loop_NLDAC_FRAND.mat');
+
+
+clear all;
+Sigma_Delta_NLDAC_loop.m;
+save('C:\DEM\MATLAB_Files\Loop_NLDAC.mat');
+
+
+   Element Fraction Error 0.000000.
+   Iteration No. 1 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   SNR(dB)=94.711
+   Element Fraction Error 0.000500.
+   Iteration No. 2 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=90.056
+   SNR Of DAC(dB)=92.492
+   Iteration No. 2 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=93.552
+   SNR Of DAC(dB)=101.782
+   Iteration No. 2 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=90.274
+   SNR Of DAC(dB)=92.628
+   Iteration No. 2 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=88.897
+   SNR Of DAC(dB)=90.771
+   Iteration No. 2 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=88.747
+   SNR Of DAC(dB)=89.936
+   Iteration No. 2 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=87.471
+   SNR Of DAC(dB)=88.669
+   Iteration No. 2 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=91.841
+   SNR Of DAC(dB)=94.222
+   Iteration No. 2 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=90.778
+   SNR Of DAC(dB)=93.136
+   Iteration No. 2 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=89.496
+   SNR Of DAC(dB)=90.577
+   Iteration No. 2 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=91.013
+   SNR Of DAC(dB)=93.751
+   SNR(dB)=90.533
+   Element Fraction Error 0.001000.
+   Iteration No. 3 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=85.627
+   SNR Of DAC(dB)=86.084
+   Iteration No. 3 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=83.050
+   SNR Of DAC(dB)=83.528
+   Iteration No. 3 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=84.313
+   SNR Of DAC(dB)=84.855
+   Iteration No. 3 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=87.210
+   SNR Of DAC(dB)=88.181
+   Iteration No. 3 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=84.309
+   SNR Of DAC(dB)=84.467
+   Iteration No. 3 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=88.206
+   SNR Of DAC(dB)=89.143
+   Iteration No. 3 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=87.231
+   SNR Of DAC(dB)=88.167
+   Iteration No. 3 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=87.494
+   SNR Of DAC(dB)=88.968
+   Iteration No. 3 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=86.273
+   SNR Of DAC(dB)=86.855
+   Iteration No. 3 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=86.593
+   SNR Of DAC(dB)=87.339
+   SNR(dB)=86.299
+   Element Fraction Error 0.001500.
+   Iteration No. 4 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=79.392
+   SNR Of DAC(dB)=79.634
+   Iteration No. 4 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=80.748
+   SNR Of DAC(dB)=80.949
+   Iteration No. 4 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=83.472
+   SNR Of DAC(dB)=83.698
+   Iteration No. 4 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=86.562
+   SNR Of DAC(dB)=87.483
+   Iteration No. 4 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=80.443
+   SNR Of DAC(dB)=80.816
+   Iteration No. 4 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=84.335
+   SNR Of DAC(dB)=84.846
+   Iteration No. 4 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=80.488
+   SNR Of DAC(dB)=80.834
+   Iteration No. 4 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=81.164
+   SNR Of DAC(dB)=81.262
+   Iteration No. 4 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=76.674
+   SNR Of DAC(dB)=76.809
+   Iteration No. 4 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=80.705
+   SNR Of DAC(dB)=80.858
+   SNR(dB)=82.227
+   Element Fraction Error 0.002000.
+   Iteration No. 5 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=81.521
+   SNR Of DAC(dB)=81.917
+   Iteration No. 5 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=82.067
+   SNR Of DAC(dB)=82.325
+   Iteration No. 5 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=78.446
+   SNR Of DAC(dB)=78.548
+   Iteration No. 5 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=76.018
+   SNR Of DAC(dB)=76.039
+   Iteration No. 5 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=76.802
+   SNR Of DAC(dB)=77.021
+   Iteration No. 5 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=79.853
+   SNR Of DAC(dB)=79.877
+   Iteration No. 5 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=78.075
+   SNR Of DAC(dB)=78.344
+   Iteration No. 5 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=77.458
+   SNR Of DAC(dB)=77.478
+   Iteration No. 5 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=75.771
+   SNR Of DAC(dB)=75.910
+   Iteration No. 5 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=77.559
+   SNR Of DAC(dB)=77.678
+   SNR(dB)=78.876
+   Element Fraction Error 0.002500.
+   Iteration No. 6 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=73.286
+   SNR Of DAC(dB)=73.298
+   Iteration No. 6 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=74.804
+   SNR Of DAC(dB)=74.900
+   Iteration No. 6 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=74.624
+   SNR Of DAC(dB)=74.675
+   Iteration No. 6 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=77.931
+   SNR Of DAC(dB)=78.017
+   Iteration No. 6 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=77.375
+   SNR Of DAC(dB)=77.582
+   Iteration No. 6 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=77.680
+   SNR Of DAC(dB)=77.871
+   Iteration No. 6 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=75.894
+   SNR Of DAC(dB)=75.863
+   Iteration No. 6 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=76.176
+   SNR Of DAC(dB)=76.137
+   Iteration No. 6 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=79.125
+   SNR Of DAC(dB)=79.257
+   Iteration No. 6 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=77.910
+   SNR Of DAC(dB)=78.041
+   SNR(dB)=76.810
+   Element Fraction Error 0.003000.
+   Iteration No. 7 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=81.001
+   SNR Of DAC(dB)=81.344
+   Iteration No. 7 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=77.848
+   SNR Of DAC(dB)=77.989
+   Iteration No. 7 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=74.590
+   SNR Of DAC(dB)=74.648
+   Iteration No. 7 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=74.226
+   SNR Of DAC(dB)=74.227
+   Iteration No. 7 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=72.288
+   SNR Of DAC(dB)=72.353
+   Iteration No. 7 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=72.287
+   SNR Of DAC(dB)=72.328
+   Iteration No. 7 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=77.186
+   SNR Of DAC(dB)=77.313
+   Iteration No. 7 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=70.688
+   SNR Of DAC(dB)=70.725
+   Iteration No. 7 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=77.153
+   SNR Of DAC(dB)=77.188
+   Iteration No. 7 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=74.135
+   SNR Of DAC(dB)=74.198
+   SNR(dB)=76.210
+   Element Fraction Error 0.003500.
+   Iteration No. 8 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=75.179
+   SNR Of DAC(dB)=75.212
+   Iteration No. 8 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=71.318
+   SNR Of DAC(dB)=71.345
+   Iteration No. 8 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=76.039
+   SNR Of DAC(dB)=76.109
+   Iteration No. 8 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=72.934
+   SNR Of DAC(dB)=73.008
+   Iteration No. 8 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=75.270
+   SNR Of DAC(dB)=75.328
+   Iteration No. 8 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=74.011
+   SNR Of DAC(dB)=74.033
+   Iteration No. 8 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=76.269
+   SNR Of DAC(dB)=76.312
+   Iteration No. 8 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=75.813
+   SNR Of DAC(dB)=75.815
+   Iteration No. 8 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=72.039
+   SNR Of DAC(dB)=72.034
+   Iteration No. 8 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=72.287
+   SNR Of DAC(dB)=72.318
+   SNR(dB)=74.449
+   Element Fraction Error 0.004000.
+   Iteration No. 9 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=69.987
+   SNR Of DAC(dB)=70.059
+   Iteration No. 9 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=71.800
+   SNR Of DAC(dB)=71.758
+   Iteration No. 9 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=71.484
+   SNR Of DAC(dB)=71.534
+   Iteration No. 9 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=75.807
+   SNR Of DAC(dB)=75.882
+   Iteration No. 9 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=74.305
+   SNR Of DAC(dB)=74.451
+   Iteration No. 9 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=70.938
+   SNR Of DAC(dB)=71.009
+   Iteration No. 9 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=72.368
+   SNR Of DAC(dB)=72.401
+   Iteration No. 9 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=73.897
+   SNR Of DAC(dB)=73.925
+   Iteration No. 9 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=70.760
+   SNR Of DAC(dB)=70.834
+   Iteration No. 9 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=73.488
+   SNR Of DAC(dB)=73.464
+   SNR(dB)=72.847
+   Element Fraction Error 0.004500.
+   Iteration No. 10 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=76.259
+   SNR Of DAC(dB)=76.323
+   Iteration No. 10 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=70.312
+   SNR Of DAC(dB)=70.328
+   Iteration No. 10 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=71.469
+   SNR Of DAC(dB)=71.499
+   Iteration No. 10 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=72.945
+   SNR Of DAC(dB)=72.999
+   Iteration No. 10 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=67.939
+   SNR Of DAC(dB)=67.922
+   Iteration No. 10 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=72.556
+   SNR Of DAC(dB)=72.526
+   Iteration No. 10 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=68.673
+   SNR Of DAC(dB)=68.708
+   Iteration No. 10 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=72.777
+   SNR Of DAC(dB)=72.863
+   Iteration No. 10 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=66.717
+   SNR Of DAC(dB)=66.704
+   Iteration No. 10 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=75.911
+   SNR Of DAC(dB)=76.100
+   SNR(dB)=72.576
+   Element Fraction Error 0.005000.
+   Iteration No. 11 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=68.853
+   SNR Of DAC(dB)=68.846
+   Iteration No. 11 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=71.292
+   SNR Of DAC(dB)=71.294
+   Iteration No. 11 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=72.131
+   SNR Of DAC(dB)=72.188
+   Iteration No. 11 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=73.368
+   SNR Of DAC(dB)=73.400
+   Iteration No. 11 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=67.137
+   SNR Of DAC(dB)=67.119
+   Iteration No. 11 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=72.960
+   SNR Of DAC(dB)=72.968
+   Iteration No. 11 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=70.131
+   SNR Of DAC(dB)=70.142
+   Iteration No. 11 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=70.549
+   SNR Of DAC(dB)=70.627
+   Iteration No. 11 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=73.969
+   SNR Of DAC(dB)=74.049
+   Iteration No. 11 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=69.306
+   SNR Of DAC(dB)=69.316
+   SNR(dB)=71.438
+   Element Fraction Error 0.005500.
+   Iteration No. 12 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=70.651
+   SNR Of DAC(dB)=70.674
+   Iteration No. 12 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=72.290
+   SNR Of DAC(dB)=72.429
+   Iteration No. 12 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=72.363
+   SNR Of DAC(dB)=72.473
+   Iteration No. 12 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=65.801
+   SNR Of DAC(dB)=65.806
+   Iteration No. 12 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=64.757
+   SNR Of DAC(dB)=64.776
+   Iteration No. 12 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=71.634
+   SNR Of DAC(dB)=71.717
+   Iteration No. 12 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=69.039
+   SNR Of DAC(dB)=69.078
+   Iteration No. 12 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=69.039
+   SNR Of DAC(dB)=69.071
+   Iteration No. 12 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=72.795
+   SNR Of DAC(dB)=72.890
+   Iteration No. 12 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=65.035
+   SNR Of DAC(dB)=65.036
+   SNR(dB)=70.229
+   Element Fraction Error 0.006000.
+   Iteration No. 13 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=68.510
+   SNR Of DAC(dB)=68.504
+   Iteration No. 13 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=67.948
+   SNR Of DAC(dB)=67.952
+   Iteration No. 13 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=70.215
+   SNR Of DAC(dB)=70.190
+   Iteration No. 13 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=70.424
+   SNR Of DAC(dB)=70.486
+   Iteration No. 13 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=65.968
+   SNR Of DAC(dB)=65.930
+   Iteration No. 13 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=68.321
+   SNR Of DAC(dB)=68.371
+   Iteration No. 13 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=70.484
+   SNR Of DAC(dB)=70.479
+   Iteration No. 13 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=69.437
+   SNR Of DAC(dB)=69.429
+   Iteration No. 13 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=70.438
+   SNR Of DAC(dB)=70.450
+   Iteration No. 13 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=71.990
+   SNR Of DAC(dB)=72.014
+   SNR(dB)=69.659
+   Element Fraction Error 0.006500.
+   Iteration No. 14 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=66.025
+   SNR Of DAC(dB)=66.022
+   Iteration No. 14 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=70.009
+   SNR Of DAC(dB)=70.044
+   Iteration No. 14 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=69.947
+   SNR Of DAC(dB)=69.942
+   Iteration No. 14 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=66.351
+   SNR Of DAC(dB)=66.356
+   Iteration No. 14 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=66.544
+   SNR Of DAC(dB)=66.556
+   Iteration No. 14 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=69.123
+   SNR Of DAC(dB)=69.164
+   Iteration No. 14 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=72.470
+   SNR Of DAC(dB)=72.491
+   Iteration No. 14 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=70.443
+   SNR Of DAC(dB)=70.456
+   Iteration No. 14 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=66.891
+   SNR Of DAC(dB)=66.908
+   Iteration No. 14 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=64.760
+   SNR Of DAC(dB)=64.728
+   SNR(dB)=68.894
+   Element Fraction Error 0.007000.
+   Iteration No. 15 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=65.036
+   SNR Of DAC(dB)=65.040
+   Iteration No. 15 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=68.181
+   SNR Of DAC(dB)=68.248
+   Iteration No. 15 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=69.579
+   SNR Of DAC(dB)=69.587
+   Iteration No. 15 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=68.058
+   SNR Of DAC(dB)=68.067
+   Iteration No. 15 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=63.742
+   SNR Of DAC(dB)=63.741
+   Iteration No. 15 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=71.799
+   SNR Of DAC(dB)=71.865
+   Iteration No. 15 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=67.628
+   SNR Of DAC(dB)=67.659
+   Iteration No. 15 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=65.428
+   SNR Of DAC(dB)=65.468
+   Iteration No. 15 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=68.445
+   SNR Of DAC(dB)=68.413
+   Iteration No. 15 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=63.945
+   SNR Of DAC(dB)=63.957
+   SNR(dB)=67.888
+   Element Fraction Error 0.007500.
+   Iteration No. 16 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=68.825
+   SNR Of DAC(dB)=68.839
+   Iteration No. 16 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=64.956
+   SNR Of DAC(dB)=64.927
+   Iteration No. 16 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=68.537
+   SNR Of DAC(dB)=68.559
+   Iteration No. 16 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=63.658
+   SNR Of DAC(dB)=63.654
+   Iteration No. 16 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=68.907
+   SNR Of DAC(dB)=68.960
+   Iteration No. 16 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=69.644
+   SNR Of DAC(dB)=69.673
+   Iteration No. 16 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=67.492
+   SNR Of DAC(dB)=67.489
+   Iteration No. 16 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=68.845
+   SNR Of DAC(dB)=68.870
+   Iteration No. 16 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=70.369
+   SNR Of DAC(dB)=70.348
+   Iteration No. 16 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=71.420
+   SNR Of DAC(dB)=71.470
+   SNR(dB)=68.765
+   Element Fraction Error 0.008000.
+   Iteration No. 17 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=64.219
+   SNR Of DAC(dB)=64.204
+   Iteration No. 17 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=74.488
+   SNR Of DAC(dB)=74.529
+   Iteration No. 17 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=69.112
+   SNR Of DAC(dB)=69.132
+   Iteration No. 17 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=68.036
+   SNR Of DAC(dB)=68.082
+   Iteration No. 17 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=66.416
+   SNR Of DAC(dB)=66.451
+   Iteration No. 17 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=65.256
+   SNR Of DAC(dB)=65.260
+   Iteration No. 17 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=66.353
+   SNR Of DAC(dB)=66.377
+   Iteration No. 17 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=66.954
+   SNR Of DAC(dB)=66.934
+   Iteration No. 17 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=70.329
+   SNR Of DAC(dB)=70.361
+   Iteration No. 17 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=66.516
+   SNR Of DAC(dB)=66.488
+   SNR(dB)=68.896
+   Element Fraction Error 0.008500.
+   Iteration No. 18 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=64.708
+   SNR Of DAC(dB)=64.736
+   Iteration No. 18 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=63.613
+   SNR Of DAC(dB)=63.617
+   Iteration No. 18 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=63.890
+   SNR Of DAC(dB)=63.905
+   Iteration No. 18 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=67.700
+   SNR Of DAC(dB)=67.727
+   Iteration No. 18 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=70.487
+   SNR Of DAC(dB)=70.530
+   Iteration No. 18 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=64.008
+   SNR Of DAC(dB)=64.021
+   Iteration No. 18 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=66.207
+   SNR Of DAC(dB)=66.225
+   Iteration No. 18 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=68.497
+   SNR Of DAC(dB)=68.551
+   Iteration No. 18 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=65.331
+   SNR Of DAC(dB)=65.336
+   Iteration No. 18 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=63.601
+   SNR Of DAC(dB)=63.632
+   SNR(dB)=66.459
+   Element Fraction Error 0.009000.
+   Iteration No. 19 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=67.754
+   SNR Of DAC(dB)=67.752
+   Iteration No. 19 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=62.158
+   SNR Of DAC(dB)=62.123
+   Iteration No. 19 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=66.543
+   SNR Of DAC(dB)=66.536
+   Iteration No. 19 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=69.865
+   SNR Of DAC(dB)=69.854
+   Iteration No. 19 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=71.068
+   SNR Of DAC(dB)=71.133
+   Iteration No. 19 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=69.160
+   SNR Of DAC(dB)=69.184
+   Iteration No. 19 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=70.503
+   SNR Of DAC(dB)=70.461
+   Iteration No. 19 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=69.199
+   SNR Of DAC(dB)=69.241
+   Iteration No. 19 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=67.986
+   SNR Of DAC(dB)=67.972
+   Iteration No. 19 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=68.854
+   SNR Of DAC(dB)=68.832
+   SNR(dB)=68.828
+   Element Fraction Error 0.009500.
+   Iteration No. 20 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=65.629
+   SNR Of DAC(dB)=65.657
+   Iteration No. 20 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=64.082
+   SNR Of DAC(dB)=64.095
+   Iteration No. 20 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=67.002
+   SNR Of DAC(dB)=66.994
+   Iteration No. 20 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=65.554
+   SNR Of DAC(dB)=65.575
+   Iteration No. 20 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=68.536
+   SNR Of DAC(dB)=68.512
+   Iteration No. 20 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=65.191
+   SNR Of DAC(dB)=65.168
+   Iteration No. 20 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=64.277
+   SNR Of DAC(dB)=64.298
+   Iteration No. 20 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=62.389
+   SNR Of DAC(dB)=62.402
+   Iteration No. 20 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=61.734
+   SNR Of DAC(dB)=61.748
+   Iteration No. 20 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=62.538
+   SNR Of DAC(dB)=62.544
+   SNR(dB)=65.180
+   Element Fraction Error 0.010000.
+   Iteration No. 21 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=64.925
+   SNR Of DAC(dB)=64.918
+   Iteration No. 21 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=64.557
+   SNR Of DAC(dB)=64.595
+   Iteration No. 21 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=67.878
+   SNR Of DAC(dB)=67.910
+   Iteration No. 21 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=64.878
+   SNR Of DAC(dB)=64.866
+   Iteration No. 21 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=64.481
+   SNR Of DAC(dB)=64.501
+   Iteration No. 21 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=63.434
+   SNR Of DAC(dB)=63.429
+   Iteration No. 21 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=65.176
+   SNR Of DAC(dB)=65.205
+   Iteration No. 21 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=67.523
+   SNR Of DAC(dB)=67.536
+   Iteration No. 21 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=67.800
+   SNR Of DAC(dB)=67.794
+   Iteration No. 21 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=64.054
+   SNR Of DAC(dB)=64.034
+   SNR(dB)=65.763
+   Simulation time =429.439 min
+Warning: Direct access of structure fields returned by a function call (e.g.,
+ call to Sigma_Delta_NLDAC_FRAND_loop) is not allowed. See MATLAB 7.10 Release Notes, "Subscripting Into Function Return Values" for details. 
+??? Attempt to reference field of non-structure array.
+ 
+>> save('C:\DEM\MATLAB_Files\Loop_NLDAC_FRAND.mat');
+>> 
+clear all;
+Sigma_Delta_NLDAC_loop.m;
+save('C:\DEM\MATLAB_Files\Loop_NLDAC.mat');
+
+   Element Fraction Error 0.000000.
+   Iteration No. 1 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   Iteration No. 1 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=94.711
+   SNR Of DAC(dB)=152.915
+   SNR(dB)=94.711
+   Element Fraction Error 0.000500.
+   Iteration No. 2 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=94.910
+   SNR Of DAC(dB)=102.813
+   Iteration No. 2 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=92.190
+   SNR Of DAC(dB)=95.392
+   Iteration No. 2 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=93.376
+   SNR Of DAC(dB)=97.394
+   Iteration No. 2 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=92.473
+   SNR Of DAC(dB)=95.071
+   Iteration No. 2 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=93.767
+   SNR Of DAC(dB)=101.726
+   Iteration No. 2 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=91.655
+   SNR Of DAC(dB)=93.911
+   Iteration No. 2 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=94.404
+   SNR Of DAC(dB)=101.306
+   Iteration No. 2 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=88.522
+   SNR Of DAC(dB)=89.387
+   Iteration No. 2 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=86.985
+   SNR Of DAC(dB)=87.927
+   Iteration No. 2 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=90.325
+   SNR Of DAC(dB)=91.633
+   SNR(dB)=92.452
+   Element Fraction Error 0.001000.
+   Iteration No. 3 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=93.281
+   SNR Of DAC(dB)=99.933
+   Iteration No. 3 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=83.880
+   SNR Of DAC(dB)=84.387
+   Iteration No. 3 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=88.619
+   SNR Of DAC(dB)=89.813
+   Iteration No. 3 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=89.935
+   SNR Of DAC(dB)=91.834
+   Iteration No. 3 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=81.521
+   SNR Of DAC(dB)=81.774
+   Iteration No. 3 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=86.706
+   SNR Of DAC(dB)=87.320
+   Iteration No. 3 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=92.556
+   SNR Of DAC(dB)=95.389
+   Iteration No. 3 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=90.741
+   SNR Of DAC(dB)=92.487
+   Iteration No. 3 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=85.380
+   SNR Of DAC(dB)=85.998
+   Iteration No. 3 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=86.091
+   SNR Of DAC(dB)=87.049
+   SNR(dB)=89.261
+   Element Fraction Error 0.001500.
+   Iteration No. 4 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=89.685
+   SNR Of DAC(dB)=91.342
+   Iteration No. 4 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=88.211
+   SNR Of DAC(dB)=89.557
+   Iteration No. 4 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=81.281
+   SNR Of DAC(dB)=81.449
+   Iteration No. 4 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=81.230
+   SNR Of DAC(dB)=81.488
+   Iteration No. 4 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=75.794
+   SNR Of DAC(dB)=75.855
+   Iteration No. 4 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=93.212
+   SNR Of DAC(dB)=98.159
+   Iteration No. 4 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=83.060
+   SNR Of DAC(dB)=83.353
+   Iteration No. 4 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=91.819
+   SNR Of DAC(dB)=96.423
+   Iteration No. 4 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=88.440
+   SNR Of DAC(dB)=89.294
+   Iteration No. 4 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=86.830
+   SNR Of DAC(dB)=87.774
+   SNR(dB)=88.386
+   Element Fraction Error 0.002000.
+   Iteration No. 5 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=84.192
+   SNR Of DAC(dB)=84.550
+   Iteration No. 5 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=89.509
+   SNR Of DAC(dB)=90.764
+   Iteration No. 5 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=81.672
+   SNR Of DAC(dB)=81.891
+   Iteration No. 5 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=92.794
+   SNR Of DAC(dB)=96.860
+   Iteration No. 5 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=89.004
+   SNR Of DAC(dB)=90.430
+   Iteration No. 5 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=80.867
+   SNR Of DAC(dB)=81.079
+   Iteration No. 5 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=87.675
+   SNR Of DAC(dB)=88.966
+   Iteration No. 5 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=79.596
+   SNR Of DAC(dB)=79.689
+   Iteration No. 5 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=79.157
+   SNR Of DAC(dB)=79.330
+   Iteration No. 5 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=80.559
+   SNR Of DAC(dB)=80.793
+   SNR(dB)=86.986
+   Element Fraction Error 0.002500.
+   Iteration No. 6 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=77.878
+   SNR Of DAC(dB)=78.016
+   Iteration No. 6 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=76.684
+   SNR Of DAC(dB)=76.782
+   Iteration No. 6 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=83.884
+   SNR Of DAC(dB)=84.269
+   Iteration No. 6 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=80.062
+   SNR Of DAC(dB)=80.287
+   Iteration No. 6 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=89.542
+   SNR Of DAC(dB)=91.233
+   Iteration No. 6 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=82.718
+   SNR Of DAC(dB)=83.175
+   Iteration No. 6 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=85.003
+   SNR Of DAC(dB)=85.347
+   Iteration No. 6 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=77.415
+   SNR Of DAC(dB)=77.478
+   Iteration No. 6 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=85.690
+   SNR Of DAC(dB)=86.161
+   Iteration No. 6 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=75.699
+   SNR Of DAC(dB)=75.774
+   SNR(dB)=83.655
+   Element Fraction Error 0.003000.
+   Iteration No. 7 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=74.475
+   SNR Of DAC(dB)=74.528
+   Iteration No. 7 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=78.587
+   SNR Of DAC(dB)=78.566
+   Iteration No. 7 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=83.018
+   SNR Of DAC(dB)=83.608
+   Iteration No. 7 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=89.744
+   SNR Of DAC(dB)=91.155
+   Iteration No. 7 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=77.677
+   SNR Of DAC(dB)=77.844
+   Iteration No. 7 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=82.345
+   SNR Of DAC(dB)=82.889
+   Iteration No. 7 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=83.813
+   SNR Of DAC(dB)=84.235
+   Iteration No. 7 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=79.955
+   SNR Of DAC(dB)=80.061
+   Iteration No. 7 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=87.899
+   SNR Of DAC(dB)=88.567
+   Iteration No. 7 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=84.593
+   SNR Of DAC(dB)=85.035
+   SNR(dB)=84.342
+   Element Fraction Error 0.003500.
+   Iteration No. 8 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=77.999
+   SNR Of DAC(dB)=78.173
+   Iteration No. 8 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=72.735
+   SNR Of DAC(dB)=72.753
+   Iteration No. 8 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=79.030
+   SNR Of DAC(dB)=79.263
+   Iteration No. 8 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=73.981
+   SNR Of DAC(dB)=74.042
+   Iteration No. 8 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=71.947
+   SNR Of DAC(dB)=71.959
+   Iteration No. 8 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=82.910
+   SNR Of DAC(dB)=83.157
+   Iteration No. 8 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=78.991
+   SNR Of DAC(dB)=79.291
+   Iteration No. 8 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=80.034
+   SNR Of DAC(dB)=80.260
+   Iteration No. 8 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=75.170
+   SNR Of DAC(dB)=75.245
+   Iteration No. 8 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=77.094
+   SNR Of DAC(dB)=77.176
+   SNR(dB)=78.209
+   Element Fraction Error 0.004000.
+   Iteration No. 9 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=77.341
+   SNR Of DAC(dB)=77.438
+   Iteration No. 9 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=77.003
+   SNR Of DAC(dB)=77.067
+   Iteration No. 9 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=76.023
+   SNR Of DAC(dB)=76.048
+   Iteration No. 9 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=73.219
+   SNR Of DAC(dB)=73.212
+   Iteration No. 9 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=78.555
+   SNR Of DAC(dB)=78.670
+   Iteration No. 9 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=80.991
+   SNR Of DAC(dB)=81.289
+   Iteration No. 9 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=72.348
+   SNR Of DAC(dB)=72.385
+   Iteration No. 9 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=73.192
+   SNR Of DAC(dB)=73.228
+   Iteration No. 9 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=83.475
+   SNR Of DAC(dB)=83.801
+   Iteration No. 9 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=74.321
+   SNR Of DAC(dB)=74.399
+   SNR(dB)=78.132
+   Element Fraction Error 0.004500.
+   Iteration No. 10 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=68.839
+   SNR Of DAC(dB)=68.847
+   Iteration No. 10 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=71.318
+   SNR Of DAC(dB)=71.327
+   Iteration No. 10 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=87.971
+   SNR Of DAC(dB)=88.756
+   Iteration No. 10 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=78.110
+   SNR Of DAC(dB)=78.305
+   Iteration No. 10 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=76.359
+   SNR Of DAC(dB)=76.401
+   Iteration No. 10 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=72.119
+   SNR Of DAC(dB)=72.160
+   Iteration No. 10 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=78.274
+   SNR Of DAC(dB)=78.328
+   Iteration No. 10 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=78.130
+   SNR Of DAC(dB)=78.201
+   Iteration No. 10 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=79.798
+   SNR Of DAC(dB)=79.953
+   Iteration No. 10 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=79.399
+   SNR Of DAC(dB)=79.631
+   SNR(dB)=80.362
+   Element Fraction Error 0.005000.
+   Iteration No. 11 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=77.281
+   SNR Of DAC(dB)=77.379
+   Iteration No. 11 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=68.679
+   SNR Of DAC(dB)=68.677
+   Iteration No. 11 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=64.280
+   SNR Of DAC(dB)=64.295
+   Iteration No. 11 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=76.663
+   SNR Of DAC(dB)=76.689
+   Iteration No. 11 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=75.854
+   SNR Of DAC(dB)=75.921
+   Iteration No. 11 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=77.418
+   SNR Of DAC(dB)=77.492
+   Iteration No. 11 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=81.599
+   SNR Of DAC(dB)=81.856
+   Iteration No. 11 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=73.305
+   SNR Of DAC(dB)=73.358
+   Iteration No. 11 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=78.464
+   SNR Of DAC(dB)=78.585
+   Iteration No. 11 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=78.608
+   SNR Of DAC(dB)=78.739
+   SNR(dB)=77.095
+   Element Fraction Error 0.005500.
+   Iteration No. 12 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=77.818
+   SNR Of DAC(dB)=77.824
+   Iteration No. 12 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=80.878
+   SNR Of DAC(dB)=81.120
+   Iteration No. 12 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=79.300
+   SNR Of DAC(dB)=79.260
+   Iteration No. 12 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=68.768
+   SNR Of DAC(dB)=68.779
+   Iteration No. 12 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=82.802
+   SNR Of DAC(dB)=82.932
+   Iteration No. 12 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=78.949
+   SNR Of DAC(dB)=79.124
+   Iteration No. 12 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=75.438
+   SNR Of DAC(dB)=75.482
+   Iteration No. 12 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=78.481
+   SNR Of DAC(dB)=78.537
+   Iteration No. 12 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=69.668
+   SNR Of DAC(dB)=69.675
+   Iteration No. 12 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=76.316
+   SNR Of DAC(dB)=76.436
+   SNR(dB)=78.465
+   Element Fraction Error 0.006000.
+   Iteration No. 13 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=72.482
+   SNR Of DAC(dB)=72.510
+   Iteration No. 13 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=73.157
+   SNR Of DAC(dB)=73.200
+   Iteration No. 13 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=76.603
+   SNR Of DAC(dB)=76.730
+   Iteration No. 13 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=66.340
+   SNR Of DAC(dB)=66.381
+   Iteration No. 13 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=69.845
+   SNR Of DAC(dB)=69.838
+   Iteration No. 13 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=71.932
+   SNR Of DAC(dB)=71.948
+   Iteration No. 13 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=75.756
+   SNR Of DAC(dB)=75.773
+   Iteration No. 13 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=78.489
+   SNR Of DAC(dB)=78.603
+   Iteration No. 13 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=74.027
+   SNR Of DAC(dB)=74.104
+   Iteration No. 13 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=75.900
+   SNR Of DAC(dB)=75.908
+   SNR(dB)=74.565
+   Element Fraction Error 0.006500.
+   Iteration No. 14 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=71.584
+   SNR Of DAC(dB)=71.603
+   Iteration No. 14 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=68.969
+   SNR Of DAC(dB)=68.981
+   Iteration No. 14 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=68.600
+   SNR Of DAC(dB)=68.620
+   Iteration No. 14 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=67.018
+   SNR Of DAC(dB)=67.020
+   Iteration No. 14 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=73.453
+   SNR Of DAC(dB)=73.516
+   Iteration No. 14 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=75.217
+   SNR Of DAC(dB)=75.245
+   Iteration No. 14 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=75.002
+   SNR Of DAC(dB)=75.083
+   Iteration No. 14 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=77.660
+   SNR Of DAC(dB)=77.769
+   Iteration No. 14 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=75.458
+   SNR Of DAC(dB)=75.502
+   Iteration No. 14 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=79.776
+   SNR Of DAC(dB)=79.946
+   SNR(dB)=74.914
+   Element Fraction Error 0.007000.
+   Iteration No. 15 / 21 : 1 / 10.
+??? Error using ==> Sigma_Delta_NLDAC_loop at 115
+Error due to multiple causes.
+
+Caused by:
+    Error using ==> Sigma_Delta_NLDAC_loop at 115
+    Program interruption (Ctrl-C) has been detected
+    Error using ==> Sigma_Delta_NLDAC_loop at 115
+    Error in 'Sigma_Delta_NLDAC_SL/REAL Integrator1/slewRate' while
+    evaluating expression: Program interruption (Ctrl-C) has been detected
+ 
+save('C:\DEM\MATLAB_Files\Loop_NLDAC.mat');
+>> for i = 15:pe_points,
+    pe(i) = 0.0005 * ( i - 1 );
+    s1=sprintf('   Element Fraction Error %1.6f.',pe(i));
+    disp(s1)
+    for j = 1:avg_loops,
+        
+        s1=sprintf('   Iteration No. %1.0f / %1.0f : %1.0f / %1.0f.',i,pe_points,j,avg_loops);
+        disp(s1)
+        frac_error(i,j,:) = pe(i) * randn(8,1) / 3;
+        %disp(frac_error(i,j,:))
+        UEG0 = DAC_step * ( 1 + frac_error(i,j,1) );
+        UEG1 = DAC_step * ( 1 + frac_error(i,j,2) );
+        UEG2 = DAC_step * ( 1 + frac_error(i,j,3) );
+        UEG3 = DAC_step * ( 1 + frac_error(i,j,4) );
+        UEG4 = DAC_step * ( 1 + frac_error(i,j,5) );
+        UEG5 = DAC_step * ( 1 + frac_error(i,j,6) );
+        UEG6 = DAC_step * ( 1 + frac_error(i,j,7) );
+        UEG7 = DAC_step * ( 1 + frac_error(i,j,8) );
+        
+        DAC_shift=0.225;
+        
+        % ************************************************************************
+        % Open Simulink diagram first
+        % ************************************************************************
+        
+        options=simset('InitialState', zeros(1,2), 'RelTol', 1e-3, 'MaxStep', 1/Fs );
+        sim('Sigma_Delta_NLDAC_SL', (N+Ntransient)/Fs, options);	% Starts Simulink simulation
+        
+        % ************************************************************************
+        %   Calculates SNR and PSD of the bit-stream and of the signal
+        % ************************************************************************
+        w=hann(N)/(N/4);
+        %echo on;
+        f=Fin/Fs;			% Normalized signal frequency
+        fB=N*(bw/Fs);		% Base-band frequency bins
+        
+        yy12=yout(2+Ntransient:1+N+Ntransient)';
+        yy_dac = DAC_Output(2+Ntransient:1+N+Ntransient)';
+        
+        yy_signal = (N/sum(w))*sinusx(yy12(1:N).*w',f,N);
+        DAC_Distortion = yy_dac ./ DAC_step - yy12 - 1 + yy_signal;
+        
+        out_bias = sum(yy12)/length(yy12) ;%- sum(DAC_Distortion)/length(DAC_Distortion);
+        yy1 = yy12-out_bias;
+        
+        dac_bias = sum(DAC_Distortion) ./ length(DAC_Distortion);
+        DAC_Distortion = DAC_Distortion - dac_bias;
+        %echo off;
+        
+        
+        snr_tmp(j)=calcSNR(yy1,f,3,fB,w',N);
+        snr_dac_tmp(j)=calcSNR(DAC_Distortion,f,3,fB,w',N);
+        s1=sprintf('   SNR For This Iteration (dB)=%1.3f',snr_tmp(j));
+        disp(s1)
+        s1=sprintf('   SNR Of DAC(dB)=%1.3f',snr_dac_tmp(j));
+        disp(s1)
+        
+    end
+    snr(i) = snr_avg(snr_tmp);
+    snr_dac(i) = snr_avg(snr_dac_tmp);
+    Rbit(i) =(snr(i)-1.76)/6.02;	% Equivalent resolution in bits
+    Rbit_dac(i) = (snr_dac(i) - 1.76) / 6.02;
+        
+    s1=sprintf('   SNR(dB)=%1.3f',snr(i));
+    disp(s1)
+    
+end
+
+
+% ************************************************************************
+% Output Graphs
+% ************************************************************************
+
+figure(1);
+clf;
+plot(pe, snr, 'r');
+grid on;
+title('SNR vs. Mismatch')
+xlabel('Percentage Mismatch')
+ylabel('SNR')
+
+figure(2);
+clf;
+plot(pe, snr_dac, 'r');
+grid on;
+title('DAC SNR vs. Mismatch')
+xlabel('Percentage Mismatch')
+ylabel('SNR')
+
+s2=sprintf('   Simulation time =%1.3f min',etime(clock,t0)/60);
+disp(s2)
+   Element Fraction Error 0.007000.
+   Iteration No. 15 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=74.619
+   SNR Of DAC(dB)=74.643
+   Iteration No. 15 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=69.136
+   SNR Of DAC(dB)=69.142
+   Iteration No. 15 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=75.162
+   SNR Of DAC(dB)=75.194
+   Iteration No. 15 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=80.094
+   SNR Of DAC(dB)=80.300
+   Iteration No. 15 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=79.080
+   SNR Of DAC(dB)=79.197
+   Iteration No. 15 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=67.320
+   SNR Of DAC(dB)=67.398
+   Iteration No. 15 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=74.542
+   SNR Of DAC(dB)=74.586
+   Iteration No. 15 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=67.243
+   SNR Of DAC(dB)=67.285
+   Iteration No. 15 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=68.145
+   SNR Of DAC(dB)=68.140
+   Iteration No. 15 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=73.000
+   SNR Of DAC(dB)=73.041
+   SNR(dB)=75.034
+   Element Fraction Error 0.007500.
+   Iteration No. 16 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=81.659
+   SNR Of DAC(dB)=81.907
+   Iteration No. 16 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=75.539
+   SNR Of DAC(dB)=75.582
+   Iteration No. 16 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=61.064
+   SNR Of DAC(dB)=61.066
+   Iteration No. 16 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=70.791
+   SNR Of DAC(dB)=70.848
+   Iteration No. 16 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=73.122
+   SNR Of DAC(dB)=73.121
+   Iteration No. 16 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=71.587
+   SNR Of DAC(dB)=71.625
+   Iteration No. 16 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=74.376
+   SNR Of DAC(dB)=74.406
+   Iteration No. 16 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=76.742
+   SNR Of DAC(dB)=76.919
+   Iteration No. 16 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=78.675
+   SNR Of DAC(dB)=78.782
+   Iteration No. 16 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=76.136
+   SNR Of DAC(dB)=76.198
+   SNR(dB)=76.232
+   Element Fraction Error 0.008000.
+   Iteration No. 17 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=73.152
+   SNR Of DAC(dB)=73.213
+   Iteration No. 17 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=73.939
+   SNR Of DAC(dB)=73.946
+   Iteration No. 17 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=72.251
+   SNR Of DAC(dB)=72.293
+   Iteration No. 17 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=68.525
+   SNR Of DAC(dB)=68.550
+   Iteration No. 17 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=70.502
+   SNR Of DAC(dB)=70.494
+   Iteration No. 17 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=67.792
+   SNR Of DAC(dB)=67.811
+   Iteration No. 17 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=68.960
+   SNR Of DAC(dB)=68.998
+   Iteration No. 17 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=76.821
+   SNR Of DAC(dB)=76.936
+   Iteration No. 17 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=71.054
+   SNR Of DAC(dB)=71.057
+   Iteration No. 17 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=75.195
+   SNR Of DAC(dB)=75.210
+   SNR(dB)=72.750
+   Element Fraction Error 0.008500.
+   Iteration No. 18 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=65.879
+   SNR Of DAC(dB)=65.866
+   Iteration No. 18 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=67.171
+   SNR Of DAC(dB)=67.145
+   Iteration No. 18 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=75.396
+   SNR Of DAC(dB)=75.414
+   Iteration No. 18 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=69.367
+   SNR Of DAC(dB)=69.380
+   Iteration No. 18 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=74.951
+   SNR Of DAC(dB)=74.978
+   Iteration No. 18 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=72.251
+   SNR Of DAC(dB)=72.292
+   Iteration No. 18 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=68.661
+   SNR Of DAC(dB)=68.681
+   Iteration No. 18 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=64.800
+   SNR Of DAC(dB)=64.828
+   Iteration No. 18 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=63.396
+   SNR Of DAC(dB)=63.418
+   Iteration No. 18 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=79.378
+   SNR Of DAC(dB)=79.478
+   SNR(dB)=73.003
+   Element Fraction Error 0.009000.
+   Iteration No. 19 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=69.440
+   SNR Of DAC(dB)=69.441
+   Iteration No. 19 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=69.921
+   SNR Of DAC(dB)=69.951
+   Iteration No. 19 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=67.854
+   SNR Of DAC(dB)=67.869
+   Iteration No. 19 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=68.410
+   SNR Of DAC(dB)=68.421
+   Iteration No. 19 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=71.106
+   SNR Of DAC(dB)=71.157
+   Iteration No. 19 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=72.018
+   SNR Of DAC(dB)=72.028
+   Iteration No. 19 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=80.534
+   SNR Of DAC(dB)=80.728
+   Iteration No. 19 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=69.947
+   SNR Of DAC(dB)=69.973
+   Iteration No. 19 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=59.958
+   SNR Of DAC(dB)=59.956
+   Iteration No. 19 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=63.260
+   SNR Of DAC(dB)=63.264
+   SNR(dB)=72.708
+   Element Fraction Error 0.009500.
+   Iteration No. 20 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=72.410
+   SNR Of DAC(dB)=72.454
+   Iteration No. 20 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=71.822
+   SNR Of DAC(dB)=71.829
+   Iteration No. 20 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=65.746
+   SNR Of DAC(dB)=65.758
+   Iteration No. 20 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=63.540
+   SNR Of DAC(dB)=63.552
+   Iteration No. 20 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=68.737
+   SNR Of DAC(dB)=68.706
+   Iteration No. 20 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=67.495
+   SNR Of DAC(dB)=67.519
+   Iteration No. 20 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=74.035
+   SNR Of DAC(dB)=74.086
+   Iteration No. 20 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=74.320
+   SNR Of DAC(dB)=74.362
+   Iteration No. 20 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=61.719
+   SNR Of DAC(dB)=61.681
+   Iteration No. 20 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=68.233
+   SNR Of DAC(dB)=68.281
+   SNR(dB)=70.502
+   Element Fraction Error 0.010000.
+   Iteration No. 21 / 21 : 1 / 10.
+   SNR For This Iteration (dB)=71.680
+   SNR Of DAC(dB)=71.720
+   Iteration No. 21 / 21 : 2 / 10.
+   SNR For This Iteration (dB)=78.169
+   SNR Of DAC(dB)=78.304
+   Iteration No. 21 / 21 : 3 / 10.
+   SNR For This Iteration (dB)=63.053
+   SNR Of DAC(dB)=63.055
+   Iteration No. 21 / 21 : 4 / 10.
+   SNR For This Iteration (dB)=83.728
+   SNR Of DAC(dB)=84.051
+   Iteration No. 21 / 21 : 5 / 10.
+   SNR For This Iteration (dB)=70.939
+   SNR Of DAC(dB)=70.953
+   Iteration No. 21 / 21 : 6 / 10.
+   SNR For This Iteration (dB)=70.932
+   SNR Of DAC(dB)=70.941
+   Iteration No. 21 / 21 : 7 / 10.
+   SNR For This Iteration (dB)=67.025
+   SNR Of DAC(dB)=67.048
+   Iteration No. 21 / 21 : 8 / 10.
+   SNR For This Iteration (dB)=61.746
+   SNR Of DAC(dB)=61.766
+   Iteration No. 21 / 21 : 9 / 10.
+   SNR For This Iteration (dB)=67.679
+   SNR Of DAC(dB)=67.706
+   Iteration No. 21 / 21 : 10 / 10.
+   SNR For This Iteration (dB)=73.339
+   SNR Of DAC(dB)=73.337
+   SNR(dB)=75.764
+   Simulation time =240.063 min
+>> save('C:\DEM\MATLAB_Files\Loop_NLDAC.mat');
+>> 
