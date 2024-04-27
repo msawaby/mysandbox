@@ -1,0 +1,699 @@
+;*************************************************************************
+; This file shows the procedures used to create and support the
+; spiral inductor pcell layout and symbol views.
+;*************************************************************************
+;
+;  Edit this file as necessary.
+;
+;  In unix, delete the LIBRARY/CELL/symbol directory.
+;
+;  Start msfb and load this file via the ciw:
+;
+;   load "pathToThisFile/spiralInd.s.pc"
+;
+;  In unix, go into the LIBRARY/CELL/symbol directory and do following:
+;
+;   a) move layout.cdb to symbol.cdb
+;   b) edit the master.tag file by changing layout.cdb to symbol.cdb
+;
+;  In msfb, use library manager to copy the pcell symbol to the
+;  appropriate simulator views (like spectre).
+;
+;  Exit msfb.
+;
+;*************************************************************************
+
+ 
+;========================================================================
+;      Author: Guy, first version
+;
+;              Tiejun Yu , sencond version, 
+;              2001 May , 4.4.6, 4.4.7
+;	       Mahmoud Sawaby, third version,
+;	       2023 May
+;=======================================================================
+ 
+
+
+LIBRARY = "ee314a_passives"
+CELL    = "spiralInd"
+
+
+;;=========================================================================
+;;   creat pCell  for spiral inductor symbol,
+;;   it is a simple spiral inductor enclosed with a well and 3 contact point
+;;========================================================================= 
+pcDefinePCell( list( ddGetObj( LIBRARY ) CELL "symbol")
+
+    ((inductorTypeInt 3)
+     (numSpiralLayers "string" "Single")
+     (spiralConnectType "string" "Parallel")
+     (numTurns "string" "3")
+     (topLayerPolarization "string" "Clockwise")
+     (angleReturnPath "string" "0"))
+
+    let( (dY labelId netId rectId (xLoc .75) (yLoc .75) (sc .16) (h 2) 
+          term (xRef .375) title)
+      ;; draw spiral graphic in center of symbol, force 1.5 < Nt < 2.5
+      let(((Ro .016) spPath pt1 m1 pt2 (m2 0.) Theta2 Radius inter Nseg
+           (deg1 57.29578) b1 b2 (center list(0.055 0.012)) Nt ThetaR
+           (dir if(equal(topLayerPolarization "Clockwise") 1. -1.)))
+        Nt=or(evalstring(numTurns) 3)-if(equal(inductorTypeInt 3) .25 0.)
+        while(greaterp(Nt 2.5) Nt=Nt-1.)
+        while(lessp(Nt 1.5) Nt=Nt+1.)
+        center=center;lint
+        angleReturnPath=(or(evalstring(angleReturnPath) 0)+180.)/deg1
+        pt2=interl=list(if(equal(inductorTypeInt 3) -Ro 0.) -dir*Ro)
+        for(i 0 fix(Nt*(Nseg=case(inductorTypeInt (1 16) (2 8) (3 4))))
+          Radius=Ro-(Ro/4.)*((Theta2=(i+1)*360./Nseg-90.)+90.)/360
+          b1=cadr((pt1=pt2))-(m1=m2)*car(pt1)
+          pt2=list(Radius*cos(Theta2/deg1) dir*Radius*sin(Theta2/deg1))
+          b2=cadr(pt2)-(m2=dir*tan((Theta2+90.)/deg1))*car(pt2)
+          inter=list((b2-b1)/(m1-m2) (b1*m2-b2*m1)/(m2-m1))
+          dbCreateLine(pcCellView '("device" "drawing")
+            list(list(car(interl)+car(center) cadr(interl)+cadr(center))
+                 list(car(inter)+car(center) cadr(inter)+cadr(center))))
+          interl=inter
+        )
+        ; return path indicating direction only, len not func of cdf param
+        dbCreateDot(pcCellView '("device" "drawing")
+          list(car(interl)+car(center) cadr(interl)+cadr(center)))
+        when(or(equal(numSpiralLayers "Single") 
+                equal(spiralConnectType "Parallel"))
+          dbCreateLine(pcCellView '("device" "drawing")
+            list(list(car(interl)+car(center) cadr(interl)+cadr(center))
+                 list(car(interl)+car(center)+Ro*cos(angleReturnPath)
+                      cadr(interl)+cadr(center)+Ro*sin(angleReturnPath))))
+        )
+      )
+
+      dY = (h - 1) * .125
+
+      ;; instance name
+      labelId = dbCreateLabel(pcCellView '("annotate" "drawing7")
+                              xLoc*sc : (.2275+dY)*sc "cdsName()" 
+                              "upperRight" "R0" "stick" .05*sc)
+      labelId~>labelType = "ILLabel"
+
+      ;; title
+      title=case( inductorTypeInt
+                  (1 "Circular")
+                  (2 "Octogonal")
+                  (3 "Rectangular"))
+      dbCreateLabel(pcCellView '("pin" "label") 
+                    xRef*sc : (.09375+dY)*sc title 
+                    "centerCenter" "R0" "stick" .05*sc)
+
+      ;; green symbol body
+      dbCreateRect(pcCellView '("device" "drawing")
+                   list( .125*sc : -.125*sc .625*sc : (.125+dY)*sc ))
+
+      ;; instance box
+      dbCreateRect(pcCellView '("instance" "drawing")
+                   list( 0*sc : -.25*sc xLoc*sc : (.125+dY)*sc ))
+
+      ;; ref. terminal constructs - pin, pin label, term display label...
+
+      term = "ref"
+
+      dbCreateLabel(pcCellView '("pin" "drawing") xRef*sc : -.09375*sc
+                    term "lowerCenter" "R0" "stick" .05*sc)
+ 
+      dbCreateLine(pcCellView '("device" "drawing")
+                   list( xRef*sc : -.125*sc xRef*sc : -.25*sc))
+ 
+      rectId = dbCreateRect(pcCellView '("pin" "drawing")
+                            list( (xRef-.025)*sc : (-.25-.025)*sc
+                                  (xRef+.025)*sc : (-.25+.025)*sc ))
+      netId = dbCreateNet(pcCellView term)
+      dbCreateTerm(netId term "inputOutput")
+      dbCreatePin(netId rectId)
+
+      labelId = dbCreateLabel(pcCellView '("annotate" "drawing8")
+                              xRef*sc : (-.25+.0625)*sc
+                              strcat("cdsTerm(" term ")") 
+                              "lowerRight" "R0" "stick" .05*sc)
+      labelId~>labelType = "ILLabel"
+
+      ;; left terminal constructs - pin, pin label, term display label...
+
+      yLoc = .065
+      xLoc = 0
+      term = "in"
+
+      dbCreateLabel(pcCellView '("pin" "drawing") .15625*sc : yLoc*sc
+                    term "centerLeft" "R0" "stick" .05*sc)
+
+      dbCreateLine(pcCellView '("device" "drawing")
+                   list( xLoc*sc : yLoc*sc .125*sc : yLoc*sc ))
+
+      rectId = dbCreateRect(pcCellView '("pin" "drawing")
+                            list( (xLoc-.025)*sc : (yLoc-.025)*sc
+                                  (xLoc+.025)*sc : (yLoc+.025)*sc ))
+      netId = dbCreateNet(pcCellView term)
+      dbCreateTerm(netId term "inputOutput")
+      dbCreatePin(netId rectId)
+
+      labelId = dbCreateLabel(pcCellView '("annotate" "drawing8")
+                              xLoc*sc : (yLoc+.0625)*sc 
+                              strcat("cdsTerm(" term ")") 
+                              "lowerRight" "R0" "stick" .05*sc)
+      labelId~>labelType = "ILLabel"
+
+      ;; right terminal constructs - pin, pin label, term display label...
+
+      yLoc = .065
+      xLoc = .75
+      term = "out"
+
+      dbCreateLabel(pcCellView '("pin" "drawing") .594*sc : yLoc*sc
+                    term "centerRight" "R0" "stick" .05*sc)
+
+      dbCreateLine(pcCellView '("device" "drawing")
+                   list(xLoc*sc : yLoc*sc .625*sc : yLoc*sc))
+
+      rectId = dbCreateRect(pcCellView '("pin" "drawing")
+                            list( (xLoc-.025)*sc : (yLoc-.025)*sc
+                                  (xLoc+.025)*sc : (yLoc+.025)*sc ))
+      netId = dbCreateNet(pcCellView term)
+      dbCreateTerm(netId term "inputOutput")
+      dbCreatePin(netId rectId)
+
+      labelId = dbCreateLabel(pcCellView '("annotate" "drawing8")
+                              xLoc*sc : (yLoc+.0625)*sc 
+                              strcat("cdsTerm(" term ")")
+                              "lowerLeft" "R0" "stick" .05*sc)
+      labelId~>labelType = "ILLabel"
+     
+   )
+)
+
+
+
+
+;;======================================================================;;
+;;									;;
+;;   tyu2001, May							;;
+;;   creat pCell  for spiral inductor layout,				;;
+;;   Both rectangular and circular Spiral inductors			;;
+;;   it is use a simple function to do it : dbCreatePath (pntList)	;;
+;;   but the pntList is hard to calculate				;;
+;;       CalcRectPointsList used for Rect Sprial, it is simple		;;
+;;       CalcCircularPointsList used for Circular spiral, it's difficult;;
+;;       mirror technique used for the series case			;;
+;;======================================================================;; 
+
+pcDefinePCell( list( ddGetObj( LIBRARY ) CELL "layout")
+
+
+
+;;==================================
+;;   tyu2001, formal parameter list 
+;;==================================
+  ( (numSpiralLayers "string" "Single")
+    (spiralConnectType "string" "Parallel")
+    (devTypeTemp "string" "Rectangular")
+    (topLayerPolarization "string" "Clockwise")
+    (spiralLayer1Name "string" "")
+    (spiralLayer2Name "string" "")
+    (returnLayerName "string" "")
+    (lenExtBox "string" "")
+    (widthExtBox "string" "")
+    (metalWidth "string" "")
+    (turnSpacing "string" "")
+    (numTurns "string" "")
+    (lenInputPath "string" "")
+    (widthReturnPath "string" "")
+    (lenReturnPath "string" "")
+    (angleReturnPath "string" "")
+    (Rext "string" "")
+    (numSides "string" "")
+  )
+;;===================================
+
+
+
+
+
+
+;;=========================================
+;;  body of the code
+;;  first calculate the pointlist
+;;=========================================
+
+ let((level pointsLists MirrorPointsAboutPoint CalcRectPointsList 
+      CalcMaxNumRectTurns CalcCircularPointsList CalcMaxNumCircTurns 
+      ConvertRtipToRPerp CalcTwoLineIntercept ShiftPointBySegAndAngle 
+      MirrorPointsListAboutLine noParamErrors)
+
+  ;****************** declare local lambda function  ******************;
+  ;************* instead of supporting external function  *************;
+  MirrorPointsAboutPoint=lambda(( list point )                         ;
+    if(listp(car(list))                                                ;
+      foreach(mapcar elem list                                         ;
+        list(car(elem)-2.*(car(elem)-or(car(point) car(elem)))         ;
+             cadr(elem)-2.*(cadr(elem)-or(cadr(point) cadr(elem)))))   ;
+      list))                                                           ;
+  ;********************************************************************;
+
+
+  level=case(numSpiralLayers
+             ("Single" "Single")
+             (t case(spiralConnectType
+                     ("Parallel" "Parallel")
+                     ("Series"   "Series")))) 
+
+  ; check shared parameters
+  noParamErrors=and(!artBlankString(spiralLayer1Name)
+                    metalWidth=evalstring(metalWidth)
+                    turnSpacing=evalstring(turnSpacing)
+                    numTurns=evalstring(numTurns))
+
+  ; check return path parameters when appropriate
+  when(or(equal(numSpiralLayers "Single")
+          equal(spiralConnectType "Parallel"))
+    noParamErrors=and(noParamErrors
+                      !artBlankString(returnLayerName)
+                      widthReturnPath=evalstring(widthReturnPath)
+                      lenReturnPath=evalstring(lenReturnPath)
+                      angleReturnPath=or(evalstring(angleReturnPath) 
+                                         0.)))
+
+  ; check second spiral layer parameters when appropriate
+  when(equal(numSpiralLayers "Double")
+    noParamErrors=and(noParamErrors !artBlankString(spiralLayer2Name)))
+
+
+  ;;============================
+  ;; branch based on spiral type
+  ;;============================
+   case(devTypeTemp
+   
+
+
+
+    ;;============ Rectangular case first===========
+    ;;============ Rectangular case first===========
+    ;;============ Rectangular case first===========
+    ("Rectangular"
+
+
+
+      ;****************** declare local lambda functions ****************;
+      ;************* instead of supporting external functions ***********;
+      ;;  	tyu2001, May						;;	
+      ;;  	Lo:	outer length					;;	
+      ;;	Wo:	outer width					;;
+      ;;	W:      metal width					;;
+      ;;        D:      metal space					;;	
+      ;;       	Nt:	number of turns					;;
+      ;;  	Li:     input path length				;;
+      ;;	Lr, Wr: return path length, width			;;
+      ;;        ThetaR: return path angle: 				;;
+      ;; 		is the angle between the return path 		;;	
+      ;;                             and innermost segment, tyu2001	;;
+      ;;	dir: 	top layer spiral direction			;;
+      ;;	level:  layers						;;
+      ;;	center:	the pcell centerCenter				;;
+      ;;================================================================;;	 	
+  
+      CalcRectPointsList=lambda((Lo Wo W D Nt @key Li (Wr 10.)         ;
+                  (Lr 50.) (ThetaR 0.) (dir "Clockwise")               ;
+                  (level "Single") (center list( 0. 0.)))              ;
+
+
+      unless(greaterp(Nt apply(CalcMaxNumRectTurns list(Lo Wo W D)))   ;
+       let( (i lastPoint val xmult ymult cPt retPath ret (segOffset 0) ;
+             (serFL equal(level "Series")) (segL makeTable('segL nil)) ;
+             ; tyu2001,spPath is start point, always the outermost lL  ;
+             ; lL is the box lowLeft corner			       ;             
+             (spPath list(list(car(center)-Lo/2.-Li                    ;
+                               W/2.-Wo/2.+cadr(center))))              ;
+             dx dy (deg1 57.29578) (bccr makeTable('bccr nil))         ;
+             tolNseg tolReturnAngle )  ; tyu2001 add this for new Return              ;
+       								       
+             ;;===tyu2001======
+             tolNseg=fix(4.0*Nt)
+
+
+       ;==========================
+       ; if no input, then Li=w+d				       	
+	 Li=or(Li W+D)                                                 
+       ;==========================
+
+
+       ;             limit                     dI   dF      xm ym  end ;
+       segL[0]=list( Lo/2.+D+W/2.+car(center)  -W-D -W/2.-D  1  0); br ;
+       segL[1]=list( Wo/2.+D+W/2.+cadr(center) -W-D -W/2.-D  0  1); rt ;
+       segL[2]=list(-Lo/2.-D-W/2.+car(center)   W+D  W/2.+D  1  0); tl ;
+       segL[3]=list(-Wo/2.+W/2.+cadr(center)    W+D  W/2.+D  0  1); lb ;
+
+       ; backtrack on last segment for contact center of return OR     ;
+       ; center contact point so mirrored spiral path lines up with    ;
+       ; Lo and Wo                                                     ;
+
+
+       ;             dx     dy    |   x     y       ending point       ;
+       bccr[0]=list(-W/2    0.        0.    nil ) ; bot right          ;
+       bccr[1]=list( 0.    -W/2       nil   0.  ) ; right top          ;
+       bccr[2]=list( W/2    0.        0.    nil ) ; top left           ;
+       bccr[3]=list( 0.     W/2       nil   0.  ) ; left bot           ;
+
+
+       for(segNum 0 Nt=fix(4.*Nt-1)                                    ;
+         when(equal(segNum Nt) segOffset=1)                            ;
+         lastPoint=car(spPath)                                         ;
+         val=nthelem(1 segL[i=mod(segNum 4)])+                         ;
+             nthelem(2+segOffset segL[i])
+					                               ;
+         xmult=nthelem(4 segL[i])                                      ;
+         ymult=nthelem(5 segL[i])                                      ;
+         spPath=cons(list((ymult*car(lastPoint)+val*xmult)             ;
+                          (xmult*cadr(lastPoint)+val*ymult))           ;
+                     spPath)   
+                                        			       ;
+         segL[i]=cons(val cdr(segL[i]))                                ;
+       )                                                               ;
+
+
+
+       ; contact point  
+       ; it is the point that return path via contact the innermost    ;
+       ; here there is a little offset of w/2 
+       cPt=list(caar(spPath)+car(bccr[i=mod(Nt 4)])                    ;
+                cadar(spPath)+cadr(bccr[i]))                           ;
+
+
+       ; for series inductors, center contact point so mirrored spiral ; 
+       ; lines up                                                      ;
+       when(serFL                                                      ;
+         dx=car(cPt)-or(caddr(bccr[i]) car(cPt))                       ;
+         dy=cadr(cPt)-or(cadddr(bccr[i]) cadr(cPt))                    ;
+         cPt=list(car(cPt)-dx cadr(cPt)-dy)                            ;
+         spPath=cons(list(caar(spPath)-dx cadar(spPath)-dy)            ;
+                     cdr(spPath))                                      ;
+       )                                                               ;
+
+
+       when(nequal(level "Series")                                     ;
+       ;;  old code, thetaR is the angle between return and Input	 ;	
+       ;;  which is alway +x direction, this not right, tyu2001          ;
+       ;;  retPath=list(list( car(cPt)+(W/2.)*cos(ThetaR/deg1)           ;
+       ;;                     cadr(cPt)+(W/2.)*sin(ThetaR/deg1))         ;
+       ;;               list( car(cPt)-(Lr+W/2.)*cos(ThetaR/deg1)        ;
+       ;;                     cadr(cPt)-(Lr+W/2.)*sin(ThetaR/deg1))))    ;
+     
+       ;== new code, thedaR is the angle between the return and the    ;
+       ;== innermost segement , tyu2001, May			       ;	  
+     
+	     ;;======= tyu2001 , this just for the clockwise ===========
+             ;;=====clockwise, start from lowleft	          
+             tolReturnAngle= (90.0*mod(tolNseg-1 4)+ThetaR)/deg1        ;
+             ;;====tyu2001 , counterclockwise	     
+               when(equal(dir "Counterclockwise") 
+                   tolReturnAngle= (90.0*mod(tolNseg-1 4)-ThetaR)/deg1        ;
+                  )
+
+              retPath=list(list( car(cPt)-(W/2.)*cos(tolReturnAngle)
+                               cadr(cPt)-(W/2.)*sin(tolReturnAngle))   ;
+                      list( car(cPt)+(Lr+W/2.)*cos(tolReturnAngle)     ;
+                           cadr(cPt)+(Lr+W/2.)*sin(tolReturnAngle))))  ;
+
+
+       ret=list(spPath cPt retPath                                     ;
+                and(serFL                                              ;
+                    apply(MirrorPointsAboutPoint                       ;
+                          list(spPath cddr(bccr[i])))))                ;
+
+
+       ;mirror lists about y=0 axis when counterclockwise is requested ;
+       when(equal(dir "Counterclockwise")                              ;
+         ret=foreach(mapcar list ret                                   ;
+                     apply(MirrorPointsAboutPoint                      ;
+                           list(list list(nil 0.))))                   ;
+       )                                                               ;
+       ret)))                                                          ;
+								       ;
+                                                                       ;
+								       ;	
+      ;;====================================			       ;	
+      ;;==== cal Rect Point here realy======			       ;	
+      ;;====================================			       ;	
+      CalcMaxNumRectTurns=lambda((Lo Wo W D)                           ;
+        let( (xsegs xrmdr ysegs yrmdr)                                 ;
+          xrmdr=fix((Lo+D)-(xsegs=fix((Lo+D)/(W+D)))*(W+D))            ;
+          yrmdr=fix((Wo+D)-(ysegs=fix((Wo+D)/(W+D)))*(W+D))            ;
+          min(xsegs/2.+if(zerop(xrmdr) 0. .25)                         ;
+              ysegs/2.-.25+if(zerop(yrmdr) 0. .25))))                  ;
+								       ;
+      ;****************************************************************;
+
+
+
+
+
+
+      ; calculate spiral paths when no errors exist
+      when(and(noParamErrors
+               lenExtBox=evalstring(lenExtBox) 
+               widthExtBox=evalstring(widthExtBox))
+        pointsLists=apply(CalcRectPointsList 
+                          list(lenExtBox widthExtBox metalWidth
+                               turnSpacing numTurns ?level level
+                               ?Wr widthReturnPath ?Lr lenReturnPath 
+                               ?ThetaR angleReturnPath 
+                               ?dir topLayerPolarization
+                               ?Li evalstring(lenInputPath))))
+
+    ) ; END RECTANGULAR
+   ;;================================================================
+   ;;================================================================
+   ;;=================== END RECTANGULAR ============================
+   ;;=================== END RECTANGULAR ============================
+   ;;================================================================
+   ;;================================================================
+
+
+
+
+
+
+
+
+
+
+
+    (list("Circular" "Octogonal")
+
+      ;****************** declare local lambda functions **************;
+      ;************* instead of supporting external functions *********;
+
+
+      CalcCircularPointsList=lambda((Ro W D Nt Nseg @key Li (Wr 10.)   ;
+              (Lr 50.) (ThetaR 0.) (dir "Clockwise") (level "Single")) ;
+        unless(greaterp(Nt                                             ;
+                        apply(CalcMaxNumCircTurns list(Ro W D Nseg)))  ;
+         let( (spPath point1 (center list(0. 0.)) ret                  ;
+               (m1 0.) m2 PivPt retPath Theta2 ThetaLast spiral Radius ;
+               intercept lextra p2 point2 rstart (deg1 57.29578)       ;
+		RelativeReturnPathAngle )      ;
+
+           Li=or(Li W+D)                                               ;
+
+           Wr=Wr center=center;lint                                    ;
+
+           rstart=apply(ConvertRtipToRPerp list(Ro Nseg (W+D)))-W/2.   ;
+
+           spPath=list(list(-Li -rstart))                              ;
+           point1=list(0 -rstart)                                      ;
+           for(delta 0 if(equal(level "Series")                        ;
+                         fix(Nt*Nseg)-1                                ;
+                         fix(Nt*(Nseg=fix(Nseg))))                     ;
+
+             Theta2=(delta+1)*360./Nseg-90.                            ;
+             Radius=rstart-(W+D)*(Theta2+90.)/360                      ;
+
+             point2=list(Radius*cos(Theta2/deg1)                       ;
+                         Radius*sin(Theta2/deg1))                      ;
+             m2=tan((Theta2+90.)/deg1)                                 ;
+             intercept=apply(CalcTwoLineIntercept                      ; 
+                             list(point1 m1 point2 m2))                ;
+
+             spPath=cons(list(car(intercept) cadr(intercept)) spPath)  ;
+             point1=point2                                             ;
+             m1=m2                                                     ;
+           )                                                           ;
+
+
+           case(level                                                  ;
+            (("Single" "Parallel")                                     ;
+             ThetaLast=360*fix((Nt-fix(Nt))*Nseg)/Nseg-90              ;
+
+;=============tyu2001, old one, the last segment is half_seg longer====;
+;=============this is because the input is half_seg longer=============; 
+;             lextra=W/(2*tan((90-180/Nseg)/deg1))                     ;
+
+;=============tyu2001 , new one, the last segment cut half_seg length==;
+       lextra=W/(2*tan((90-180/Nseg)/deg1))-Radius*tan(180/Nseg/deg1)  ;
+
+             spPath=cons(apply(ShiftPointBySegAndAngle                 ;
+                               list(car(spPath) lextra (ThetaLast+90)));
+                        cdr(spPath))                                  ;
+             PivPt=apply(ShiftPointBySegAndAngle                       ;
+                         list(car(spPath) W/2. (ThetaLast-90)))        ;
+
+       ;;;;============old code, return path angle is the angle========;
+       ;;;;============between the return and the input path===========;
+       ;      retPath=list(apply(ShiftPointBySegAndAngle                ;
+       ;                         list(PivPt W/2.    ThetaR))            ;
+       ;                   apply(ShiftPointBySegAndAngle                ;
+       ;                         list(PivPt Lr+W/2. ThetaR+180)))       ;
+
+    
+
+      ;;;;========= tyu2001May, return path angle is the angle ========;
+      ;;;========== between return and the innermost seg===============;
+      ;;;======== always keep the returnpath angle is the angle in ====;
+      ;;;======== counter clockwise direction , 0-90-180-270...========; 
+
+                 RelativeReturnPathAngle=ThetaLast+90+ThetaR	       ;	
+            when(equal(dir "Counterclockwise") 
+                 RelativeReturnPathAngle=ThetaLast+90-ThetaR	       ;	
+                  )
+            retPath=list(apply(ShiftPointBySegAndAngle                 ;
+                  list(PivPt -W/2.  RelativeReturnPathAngle))          ;
+                          apply(ShiftPointBySegAndAngle                ;
+                     list(PivPt Lr+W/2.  RelativeReturnPathAngle)))    ;
+            )                                                          ;
+
+
+            ("Series"                                                  ;
+             ThetaLast=360*fix((Nt-fix(Nt))*Nseg)/Nseg-90              ;
+             p2=apply(CalcTwoLineIntercept                             ;
+                      list(car(spPath) tan((ThetaLast+90)/deg1)        ;
+                           list(0. 0.) tan(ThetaLast/deg1)))           ;
+             spPath=cons(apply(ShiftPointBySegAndAngle                 ;
+                               list(p2 W/2. (ThetaLast+90)))           ;
+                         spPath)                                       ;
+             PivPt=apply(ShiftPointBySegAndAngle                       ;
+                         list(car(spPath) W/2. (ThetaLast-90)))        ;
+             retPath=nil                                               ;
+            )                                                          ;
+           )                                                           ;
+
+
+           foreach(elem spPath                                         ;
+             spiral=cons(list(car(elem)+car(center)                    ;
+                              cadr(elem)+cadr(center)) spiral))        ;
+           ret=list(spiral PivPt retPath                               ;
+                    and(equal(level "Series")                          ;
+                        apply(MirrorPointsListAboutLine                ;
+                              list(spiral center tan(ThetaLast/deg1))));
+                   )                                                   ;
+           when(equal(dir "Counterclockwise")                          ;
+             ret=foreach(mapcar elem ret                               ;
+                         apply(MirrorPointsListAboutLine               ;
+                               list(elem list(0. 0.) 0.))))            ;
+           ret)))                                                      ;
+                                                                       ;
+
+
+      CalcMaxNumCircTurns=lambda((Ro W D Nseg)                         ;
+        let( ((ydist apply(ConvertRtipToRPerp list(Ro Nseg W+D))))     ;
+          fix(Nseg*(ydist-1.25*D)/(W+D))/float(Nseg)))                 ;
+                                                                       ;
+      ConvertRtipToRPerp=lambda((Rtip Nseg Dr360)                      ;
+        let( (A B D E F (deg1 57.29578))                               ;
+          A=(D=(cos(360/(Nseg*deg1))-1.)/(E=sin(360/(Nseg*deg1))))**2+1;
+          B=2*D*(F=float(Dr360)/(Rtip*Nseg*E))                         ;
+          Rtip*((B+sqrt(B**2-4*A*(F**2-1)))/(2.*A))))                  ;
+                                                                       ;
+
+
+
+      CalcTwoLineIntercept=lambda((pt1 m1 pt2 m2)                      ;
+        let( ((b1 cadr(pt1)-m1*car(pt1)) (b2 cadr(pt2)-m2*car(pt2)))   ;
+          list((b2-b1)/(m1-m2) (b1*m2-b2*m1)/(m2-m1))))                ;
+                                                                       ;
+
+
+      ShiftPointBySegAndAngle=lambda((Pt Seg Theta)                    ;
+        let( ((deg1 57.29578))                                         ;
+          list(Seg*cos(Theta/deg1)+car(Pt)                             ;
+               Seg*sin(Theta/deg1)+cadr(Pt))))                         ;
+                                                                       ;
+
+
+
+      MirrorPointsListAboutLine=lambda(( list point slope )            ;
+      let( (min bin m b xi yi)                                         ;
+        if(equal(slope 0.) then                                        ;
+          apply(MirrorPointsAboutPoint                                 ;
+                list( list list(nil cadr(point))))                     ;
+        else                                                           ;
+          if(listp(car(list)) then                                     ;
+            min=slope                                                  ;
+            bin=cadr(point)-slope*car(point)                           ;
+            foreach(mapcar elem list                                   ;
+              m=-1./slope                                              ;
+              b=cadr(elem)-m*car(elem)                                 ;
+              xi=(b-bin)/(min-m)                                       ;
+              yi=(bin*m-b*min)/(m-min)                                 ;
+              list(2.*xi-car(elem) 2*yi-cadr(elem))                    ;
+            )                                                          ;
+          else                                                         ;
+            list                                                       ;
+          ))))                                                         ;
+      ;****************************************************************;
+
+      when(equal(devTypeTemp "Octogonal") numSides="8")
+
+      ; calculate spiral paths when no errors exist
+      when(and(noParamErrors
+               Rext=evalstring(Rext)
+               numSides=evalstring(numSides))
+        pointsLists=apply(CalcCircularPointsList list(Rext metalWidth
+                     turnSpacing numTurns numSides
+                     ?Wr widthReturnPath ?Lr lenReturnPath
+                     ?ThetaR angleReturnPath ?dir topLayerPolarization
+                     ?level level ?Li evalstring(lenInputPath))))
+
+    ); END CIRCULAR AND OCTOGONAL
+
+  )
+
+
+
+
+
+
+
+
+
+  ; draw all paths of spiral inductor
+;=============== tyu2001 May ==================
+;======== the real draw begin just here========
+;======== the real draw begin just here======== 
+;======== the real draw begin just here========  
+;======== the real draw begin just here========  
+
+  when(pointsLists
+
+    ; draw first layer spiral path
+    dbCreatePath( pcCellView spiralLayer1Name car(pointsLists) 
+                  metalWidth )
+
+    ; draw return path when appropriate
+    when(or(equal(numSpiralLayers "Single")
+            equal(spiralConnectType "Parallel"))
+      dbCreatePath( pcCellView returnLayerName caddr(pointsLists) 
+                    widthReturnPath ))
+
+    ; draw second layer spiral path when appropriate
+    when(equal(numSpiralLayers "Double")
+      dbCreatePath( pcCellView spiralLayer2Name 
+                    or(cadddr(pointsLists) car(pointsLists))
+                    metalWidth ))
+
+  )
+))

@@ -1,0 +1,190 @@
+;*************************************************************************
+; This file shows the procedures used to create and support the
+; spiral transformer pcell layout view.
+;*************************************************************************
+;
+;  Edit this file as necessary.
+;
+;  Start msfb and load this file via the ciw:
+;
+;   load "pathToThisFile/spiralInd.s.pc"
+;
+;  Exit msfb.
+;
+;*************************************************************************
+
+LIBRARY = "ee314a_passives"
+CELL    = "transformer"
+ 
+pcDefinePCell( list( ddGetObj( LIBRARY ) CELL "layout")
+
+  ( (numSpiralLayers "string" "Single")
+    (spiralConnectType "string" "Parallel")
+    (topLayerPolarization "string" "Clockwise")
+    (spiralLayer1Name "string" "")
+    (spiralLayer2Name "string" "")
+    (returnLayerName "string" "")
+    (lenExtBox "string" "")
+    (widthExtBox "string" "")
+    (metalWidth "string" "")
+    (turnSpacing "string" "")
+    (numTurns "string" "")
+    (lenInputPath "string" "")
+    (widthReturnPath "string" "")
+    (lenReturnPath "string" "")
+    (angleReturnPath "string" "")
+  )
+
+  let((level pointsLists CalcRectPointsList CalcMaxNumRectTurns 
+       MirrorPointsAboutPoint wps)
+
+      ;****************** declare local lambda functions **************;
+      ;************* instead of supporting external functions *********;
+      CalcRectPointsList=lambda((Lo Wo W D Nt @key Li (Wr 10.)         ;
+                  (Lr 50.) (ThetaR 0.) (dir "Clockwise")               ;
+                  (level "Single") (center list( 0. 0.)))              ;
+      unless(greaterp(Nt apply(CalcMaxNumRectTurns list(Lo Wo W D)))   ;
+       let( (i lastPoint val xmult ymult cPt retPath ret (segOffset 0) ;
+             (serFL equal(level "Series")) (segL makeTable('segL nil)) ;
+             (spPath list(list(car(center)-Lo/2.-Li                    ;
+                               W/2.-Wo/2.+cadr(center))))              ;
+             dx dy (deg1 57.29578) (bccr makeTable('bccr nil)))        ;
+       Li=or(Li W+D)                                                   ;
+       ;             limit                     dI   dF      xm ym  end ;
+       segL[0]=list( Lo/2.+D+W/2.+car(center)  -W-D -W/2.-D  1  0); br ;
+       segL[1]=list( Wo/2.+D+W/2.+cadr(center) -W-D -W/2.-D  0  1); rt ;
+       segL[2]=list(-Lo/2.-D-W/2.+car(center)   W+D  W/2.+D  1  0); tl ;
+       segL[3]=list(-Wo/2.+W/2.+cadr(center)    W+D  W/2.+D  0  1); lb ;
+       ; backtrack on last segment for contact center of return OR     ;
+       ; center contact point so mirrored spiral path lines up with    ;
+       ; Lo and Wo                                                     ;
+       ;             dx     dy    |   x     y       ending point       ;
+       bccr[0]=list(-W/2    0.        0.    nil ) ; bot right          ;
+       bccr[1]=list( 0.    -W/2       nil   0.  ) ; right top          ;
+       bccr[2]=list( W/2    0.        0.    nil ) ; top left           ;
+       bccr[3]=list( 0.     W/2       nil   0.  ) ; left bot           ;
+       for(segNum 0 Nt=fix(4.*Nt-1)                                    ;
+         when(equal(segNum Nt) segOffset=1)                            ;
+         lastPoint=car(spPath)                                         ;
+         val=nthelem(1 segL[i=mod(segNum 4)])+                         ;
+             nthelem(2+segOffset segL[i])                              ;
+         xmult=nthelem(4 segL[i])                                      ;
+         ymult=nthelem(5 segL[i])                                      ;
+         spPath=cons(list((ymult*car(lastPoint)+val*xmult)             ;
+                          (xmult*cadr(lastPoint)+val*ymult))           ;
+                     spPath)                                           ;
+         segL[i]=cons(val cdr(segL[i]))                                ;
+       )                                                               ;
+       ; contact point                                                 ;
+       cPt=list(caar(spPath)+car(bccr[i=mod(Nt 4)])                    ;
+                cadar(spPath)+cadr(bccr[i]))                           ;
+       ; for series inductors, center contact point so mirrored spiral ;
+       ; lines up                                                      ;
+       when(serFL                                                      ;
+         dx=car(cPt)-or(caddr(bccr[i]) car(cPt))                       ;
+         dy=cadr(cPt)-or(cadddr(bccr[i]) cadr(cPt))                    ;
+         cPt=list(car(cPt)-dx cadr(cPt)-dy)                            ;
+         spPath=cons(list(caar(spPath)-dx cadar(spPath)-dy)            ;
+                     cdr(spPath))                                      ;
+       )                                                               ;
+       when(nequal(level "Series")                                     ;
+         retPath=list(list( car(cPt)+(W/2.)*cos(ThetaR/deg1)           ;
+                            cadr(cPt)+(W/2.)*sin(ThetaR/deg1))         ;
+                      list( car(cPt)-(Lr+W/2.)*cos(ThetaR/deg1)        ;
+                            cadr(cPt)-(Lr+W/2.)*sin(ThetaR/deg1))))    ;
+       ret=list(spPath cPt retPath                                     ;
+                and(serFL                                              ;
+                    apply(MirrorPointsAboutPoint                       ;
+                          list(spPath cddr(bccr[i])))))                ;
+       ;mirror lists about y=0 axis when counterclockwise is requested ;
+       when(equal(dir "Counterclockwise")                              ;
+         ret=foreach(mapcar list ret                                   ;
+                     apply(MirrorPointsAboutPoint                      ;
+                           list(list list(nil 0.))))                   ;
+       )                                                               ;
+       ret)))                                                          ;
+                                                                       ;
+      CalcMaxNumRectTurns=lambda((Lo Wo W D)                           ;
+        let( (xsegs xrmdr ysegs yrmdr)                                 ;
+          xrmdr=fix((Lo+D)-(xsegs=fix((Lo+D)/(W+D)))*(W+D))            ;
+          yrmdr=fix((Wo+D)-(ysegs=fix((Wo+D)/(W+D)))*(W+D))            ;
+          min(xsegs/2.+if(zerop(xrmdr) 0. .25)                         ;
+              ysegs/2.-.25+if(zerop(yrmdr) 0. .25))))                  ;
+                                                                       ;
+       MirrorPointsAboutPoint=lambda(( list point )                    ;
+         if(listp(car(list))                                           ;
+           foreach(mapcar elem list                                    ;
+             list(car(elem)-2.*(car(elem)-or(car(point) car(elem)))    ;
+                  cadr(elem)-2.*(cadr(elem)-or(cadr(point)             ;
+                  cadr(elem)))))                                       ;
+           list))                                                      ;
+      ;****************************************************************;
+
+  ; check shared parameters
+  noParamErrors=and(!artBlankString(spiralLayer1Name)
+                    lenExtBox=evalstring(lenExtBox)
+                    widthExtBox=evalstring(widthExtBox)
+                    metalWidth=evalstring(metalWidth)
+                    turnSpacing=evalstring(turnSpacing)
+                    numTurns=evalstring(numTurns))
+
+  ; check return path parameters when appropriate
+  when(or(equal(numSpiralLayers "Single")
+          equal(spiralConnectType "Parallel"))
+    noParamErrors=and(noParamErrors
+                      !artBlankString(returnLayerName)
+                      widthReturnPath=evalstring(widthReturnPath)
+                      lenReturnPath=evalstring(lenReturnPath)
+                      angleReturnPath=or(evalstring(angleReturnPath) 0.)))
+
+  ; check second layer parameters when appropriate
+  when(equal(numSpiralLayers "Double")
+    noParamErrors=and(noParamErrors !artBlankString(spiralLayer2Name)))
+                      
+  when(noParamErrors
+
+    level=case(numSpiralLayers 
+               ("Single" "Single")
+               (t case(spiralConnectType
+                       ("Parallel" "Parallel")
+                       ("Series"   "Series")))) 
+    wps=metalWidth+turnSpacing
+
+    ; calculate spiral paths
+    pointsLists=apply(CalcRectPointsList list(lenExtBox-wps widthExtBox-wps 
+                 metalWidth turnSpacing+wps numTurns
+                 ?Wr widthReturnPath ?Lr lenReturnPath 
+                 ?ThetaR angleReturnPath ?dir topLayerPolarization
+                 ?level level ?Li or(evalstring(lenInputPath) 0.)+wps
+                 ?center list(wps/2. -wps/2.)))
+
+    ; draw first layer spiral paths
+    dbCreatePath( pcCellView spiralLayer1Name car(pointsLists) metalWidth )
+    dbCreatePath( pcCellView spiralLayer1Name 
+       apply(MirrorPointsAboutPoint list(car(pointsLists) list(0. 0.)))
+       metalWidth)
+
+    ; draw return paths when appropriate
+    when(or(equal(numSpiralLayers "Single")
+            equal(spiralConnectType "Parallel"))
+      dbCreatePath( pcCellView returnLayerName caddr(pointsLists) 
+                    widthReturnPath )
+      dbCreatePath( pcCellView returnLayerName
+        apply(MirrorPointsAboutPoint list(caddr(pointsLists) list(0. 0.)))
+                    widthReturnPath )
+    )
+
+    ; draw second layer spiral paths when appropriate
+    when(equal(numSpiralLayers "Double")
+      dbCreatePath( pcCellView spiralLayer2Name 
+                    or(cadddr(pointsLists) car(pointsLists))
+                    metalWidth )
+      dbCreatePath( pcCellView spiralLayer2Name 
+                    or(
+        apply(MirrorPointsAboutPoint list(cadddr(pointsLists) list(0. 0.)))
+        apply(MirrorPointsAboutPoint list(car(pointsLists) list(0. 0.)))
+                    )
+                    metalWidth )
+    )
+  )
+))
